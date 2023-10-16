@@ -3,14 +3,15 @@
     <head>
         <!-- icon Using Google Fonts -->
         <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
-      rel="stylesheet">
+    rel="stylesheet">
+        <script src="clicktocopy.js"></script>
     </head>
     <body>
       <article>
         <!-- Title  -->
         <div id="title-box">
             <h2 id="project">Particle System with subdivision</h2>
-            <span class="material-icons">
+            <span class="material-icons" label="copy">
                 content_copy
             </span>
         </div>
@@ -27,14 +28,17 @@
         <time datetime="2023-09-01" id="to">Sep 2023</time>
 
         <!-- Description -->
-        <ul id="desc">
-            <span class="material-icons">
+        <div id="description-box">
+            <ul id="desc">
+            <li>Advanced GPU rendering based on Vulkan and DirectX pipeline simulating particle collision responses</li>
+            <li>Experimented with instanced, indirect, and indirect with compute shader rendering options to compare the performance between them</li>
+            <li>Supported various features including alternating between shapes and moving 3D texts</li>
+            </ul>
+            <span class="material-icons" label="copy">
                 content_copy
             </span>
-          <li>Advanced GPU rendering based on Vulkan and DirectX pipeline simulating particle collision responses</li>
-          <li>Experimented with instanced, indirect, and indirect with compute shader rendering options to compare the performance between them</li>
-          <li>Supported various features including alternating between shapes and moving 3D texts</li>
-        </ul>
+        </div>
+        <span id="snackbar" style="display: none;">copied</span>
       </article>
     </body>
 </html>

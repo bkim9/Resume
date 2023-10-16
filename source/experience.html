@@ -4,37 +4,7 @@
       <!-- icon Using Google Fonts -->
       <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
       rel="stylesheet">
-      <script>
-        function ready() {
-          // click to copy
-          copyIconEs = document.querySelectorAll('.material-icons[label="copy"]');
-          copyIconEs.forEach(copyIconE => {
-            copyIconE.addEventListener("click", () => { 
-              copyContent(
-                copyIconE.previousElementSibling.textContent
-              )
-            });
-          })
-        }
-        async function copyContent(copyText) {
-          try {
-            await navigator.clipboard.writeText(copyText);
-            snackbar();
-            /* Resolved - text copied to clipboard successfully */
-          } catch (err) {
-            console.error('Failed to copy: ', err);
-            /* Rejected - text failed to copy to the clipboard */
-          }
-        }
-        function snackbar() {
-          // snackbar eleement
-          var snackbarE = document.querySelector("#snackbar")
-          snackbarE.style.display = ""
-          // remove 3 second later
-          setTimeout(function(){ snackbarE.style.display = "none"; }, 3000);
-        }
-        document.addEventListener("DOMContentLoaded", ready);
-      </script>
+      <script src="clicktocopy.js"></script>
     </head>
     <body>
       <article>
