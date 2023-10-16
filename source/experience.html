@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+      <!-- icon Using Google Fonts -->
+      <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+      <script>
+        function ready() {
+          // click to copy
+          copyIconEs = document.querySelectorAll('.material-icons[label="copy"]');
+          copyIconEs.forEach(copyIconE => {
+            copyIconE.addEventListener("click", () => { 
+              copyContent(
+                copyIconE.previousElementSibling.textContent
+              )
+            });
+          })
+        }
+        async function copyContent(copyText) {
+          try {
+            await navigator.clipboard.writeText(copyText);
+            snackbar();
+            /* Resolved - text copied to clipboard successfully */
+          } catch (err) {
+            console.error('Failed to copy: ', err);
+            /* Rejected - text failed to copy to the clipboard */
+          }
+        }
+        function snackbar() {
+          // snackbar eleement
+          var snackbarE = document.querySelector("#snackbar")
+          snackbarE.style.display = ""
+          // remove 3 second later
+          setTimeout(function(){ snackbarE.style.display = "none"; }, 3000);
+        }
+        document.addEventListener("DOMContentLoaded", ready);
+      </script>
+    </head>
+    <body>
+      <article>
+        
+        <!-- Title  -->
+        <div id="title-box">
+          <h2 id="job">Software Engineer</h2>
+          <span class="material-icons" label="copy">
+            content_copy
+          </span>
+        </div>
+
+        <!-- Skills -->
+        <h3 class="skills">React</h3>
+        <h3 class="skills">Deep Learning</h3>
+        <h3 class="skills">Computer Vision</h3>
+        
+        <!-- Company -->
+        <div id="company-box">
+          <h4 id="company">MITAA</h3>
+          <span class="material-icons" label="copy">
+            content_copy
+          </span>
+        </div>
+        
+        <!-- From -->
+        <time datetime="2023-09-29" id="from">Sep 29</time>
+        <!-- To -->
+        <time datetime="2023-09-29" id="to">Present</time>
+
+        <!-- City -->
+        <div id="city-box">
+          <p id="city">Los Angeles</p>
+          <span class="material-icons" label="copy">
+            content_copy
+          </span>
+        </div>
+        
+        <!-- Description -->
+        <div id="description-box">
+          <ul id="desc">
+            <li>Constructing company’s  website for memory clinic using React Native</li>
+            <li>Managing patient dataset to develop Generative Adversarial Networks to analyze medical images to prescribe Alzheimer's disease</li>
+            <li>Building neurological knowledge through working with the physician</li>
+          </ul>
+          <span class="material-icons" label="copy">
+            content_copy
+          </span>
+        </div>
+        <span id="snackbar" style="display: none;">copied</span>
+      </article>
+    </body>
+</html>
