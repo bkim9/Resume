@@ -4,7 +4,89 @@
   <!-- Main Stylesheet & Scripts -->
   <head>
     <meta chartset="UTF-8" />
-    <title>Beomsu Kim Resume</title>
+    <title>Beomsu Kim Resume</title>      
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+    rel="stylesheet">
+    <script src="./scripts/main.js"></script>
+    <template id="experience-template">
+      <article>
+        
+        <!-- Title  -->
+        <div id="title-box">
+          <h2 id="job">Software Engineer</h2>
+          <span class="material-icons" label="copy">
+            content_copy
+          </span>
+        </div>
+
+        <!-- Skills -->
+        <ul id="skills-box">
+        </ul>
+         
+        <!-- Company -->
+        <div id="company-box">
+          <h4 id="company">MITAA</h3>
+          <span class="material-icons" label="copy">
+            content_copy
+          </span>
+        </div>
+        
+        <!-- From -->
+        <time datetime="2023-09-29" id="from">Sep 29</time>
+        <!-- To -->
+        <time datetime="2023-09-29" id="to">Present</time>
+
+        <!-- City -->
+        <div id="city-box">
+          <p id="city">Los Angeles</p>
+          <span class="material-icons" label="copy">
+            content_copy
+          </span>
+        </div>
+        
+        <!-- Description -->
+        <div id="description-box">
+          <ul id="desc">
+          </ul>
+          <span class="material-icons" label="copy">
+            content_copy
+          </span>
+        </div>
+        <span id="snackbar" style="display: none;">copied</span>
+      </article>
+    </template>
+    <template id="project-template">
+      <article>
+        <!-- Title  -->
+        <div id="title-box">
+            <h2 id="title">Particle System with subdivision</h2>
+            <span class="material-icons" label="copy">
+                content_copy
+            </span>
+        </div>
+        <!-- Skills -->
+        <ul id="skills-box">
+          <li>C++</li>
+        </div>
+        <!-- From -->
+        <time datetime="2023-08-01" id="from">Aug 2023</time>
+        <!-- To -->
+        <time datetime="2023-09-01" id="to">Sep 2023</time>
+
+        <!-- Description -->
+        <div id="description-box">
+            <ul id="desc">
+            <li>Advanced GPU rendering based on Vulkan and DirectX pipeline simulating particle collision responses</li>
+            <li>Experimented with instanced, indirect, and indirect with compute shader rendering options to compare the performance between them</li>
+            <li>Supported various features including alternating between shapes and moving 3D texts</li>
+            </ul>
+            <span class="material-icons" label="copy">
+                content_copy
+            </span>
+        </div>
+        <span id="snackbar" style="display: none;">copied</span>
+      </article>
+    </template>
   </head>
 
   <body>
@@ -24,10 +106,11 @@
         
       </address>
 
-      <!-- Labels hold 5 preset label buttons (and reset) shown by clicking the text "Label" -->
+      <!-- Interests -->
+      <h2>Interests</h3>
       <details class="interests">
         <summary class="filterby_option" id="label_option">
-          <h3>Interests</h3>
+  
         </summary>
         <div class="labels">
           <input
@@ -63,10 +146,10 @@
         </div>
       </details>
 
-      <!-- skills -->
+      <!-- Skills -->
+      <h2>Skills</h2>
       <details class="skills">
         <summary class="filterby_option" id="label_option">
-          <h3>Skills</h3>
         </summary>
           <input
             type="button"
@@ -250,18 +333,34 @@
           />
           <input
             type="button"
-            id="label27"
+            id="label28"
             class="filterby_label"
             value="Deep Learning"
+          />
+          <input
+            type="button"
+            id="label29"
+            class="filterby_label"
+            value="Colab"
+          />
+          <input
+            type="button"
+            id="label30"
+            class="filterby_label"
+            value="Puppeteer"
+          />
+          <input
+            type="button"
+            id="label31"
+            class="filterby_label"
+            value="GANs"
           />
 
       </details>
 
-      <!-- education -->
+      <!-- Education -->
+      <h2>Education</h2>
       <table id="education">
-        <caption>
-          Education
-        </caption>
         <tr>
           <td>University of California San Diego<br>BS CSE: Computer Engineering</td>
           <td>Sep.2019 - June.2023</td>
@@ -272,59 +371,14 @@
         </tr>
       </table>
 
-      <!-- experience -->
-      <table id="experience">
-        <caption>
-          Experience
-        </caption>
-        <tr>
-          <td>Software Developer<br>
-            MITAA, Los Angeles</td>
-          <td>Sep.2023 - Now</td>
-        </tr>
-        <tr>
-          <td>Machine Learning Engineer Intern<br>
-            ATSolution, Busan ROK and Remote</td>
-          <td>Apr.2022 - Jan.2023</td>
-        </tr>
-        <tr>
-          <td>Computer Emergency Response Team Lead<br>
-            ROK Marine Corps, Incheon ROK</td>
-          <td>Oct.2020 - Apr.2022</td>
-        </tr>
-      </table>
+      <!-- Experience -->
+      <h2>Experience</h2>
+      <div id="experiences"></div>
 
-      <!-- projects -->
-      <table id="projects">
-        <caption>
-          Projects
-        </caption>
-        <tr>
-          <td>        
-            <a id="logo_link" href = "https://cse110-fa22-group7.github.io/cse110-fa22-group7-project/source/main.html" >
-            <img class="logo" src="./images/logo.svg" width="30rem" alt="logo" />  
-              Note Taking Site 
-            </a>
-          </td>
-          <td>Mar - May 2023</td>
-        </tr>
-        <tr>
-          <td>Customizable Flash Cards App (Flutter)</td>
-          <td>Sep.2021 - Dec.2021</td>
-        </tr>
+      <!-- Projects -->
+      <h2>Projects</h2>
+      <div id="projects"></div>
 
-        <tr>
-          <td>Particle System with subdivision (C++)</td>
-          <td>Aug.2023 - Sep.2023</td>
-        </tr>
-
-
-      </table>
-
-
-      <div class="posts">
-        
-      </div>
       <output id="output"></output>
     </main>
   </body>

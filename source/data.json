@@ -1,0 +1,118 @@
+{
+    "experience" : [
+        {
+            "label": [ "HTML", "ComputerVision", "Deep Learning", "GANs"],
+            "title": "Software Engineer",
+            "company": "MITAA",
+            "from": "2023.09",
+            "to": "Now",
+            "city": "Los Angeles",
+            "desc": [
+                "Constructing company’s  website for memory clinic using React Native",
+                "Managing patient dataset to develop Generative Adversarial Networks to analyze medical images to prescribe Alzheimer's disease",
+                "Building neurological knowledge through working with the physician"
+            ]
+        },
+        {
+            "label": [ "Deep Learning", "Tensorflow", "Computer Vision"],
+            "title": "Machine Learning Engineer Intern",
+            "company": "AT Solution",
+            "from": "2022.04",
+            "to": "2023.01",
+            "city": "Busan, South Korea",
+            "desc": [
+                "Used Tensorflow to practice basic machine learning at a commercial industry field",
+                "Cooperated with government organizations to generate a model to detect a pattern recognition in an image dataset",
+                "Served as an exhibitor for the company’s booth at CES 2023 in Las Vegas and Collaborate with the team members to convince the potential customer of the products"
+            ]
+        },
+        {
+            "label": [ "Powershell" ],
+            "title": "Computer Emergency Response Team Lead",
+            "company": "ROK Marine Corps",
+            "from": "2020.10",
+            "to": "2022.04",
+            "city": "Incheon, South Korea",
+            "desc": [
+                "Managed military vaccine servers for security updates using linux",
+                "Drilled for a possible security breach situation including hacking mail, ransomware training”",
+                "Powershelled routine or repetitive works for efficiency using REST APIs with Powershell",
+                "Allocated IPs and controlled access to the networks for security"
+            ]
+        }
+    ],
+    "projects" : [
+        {
+            "label": [ "Computer Graphics" , "C++", "Multithread"],
+            "title": "Particle System with subdivision",
+            "from": "2023.08",
+            "to": "2023.09",
+            "language": "C++",
+            "desc": [
+                "<b>Advanced GPU rendering</b> based on the Forge engine <b>Vulkan</b> and <b>DirectX</b> pipeline simulating particle collision responses",
+                "Instanced, indirect, and indirect with compute <b>shader rendering options</b> to compare the performance between them",
+                "Supported various features including alternating between shapes and moving 3D texts"
+            ]
+        },
+        {
+            "label": [ "Computer Graphics" , "C++", "Multithread"],
+            "title": "Ray Tracing and Tone Mapping",
+            "from": "2023.04",
+            "to": "2023.07",
+            "language": "C++",
+            "desc": [
+                "Ray tracing renderer with bounding volume hierarchy and multithread acceleration",
+                "Importance sampled for integration for area lights and used GoogleTest",
+                "Several Tone Mapping strategies are used"
+            ]
+        },
+        {
+            "label": [ "Computer Graphics" , "C++", "Dear ImGui"],
+            "title": "Cloth Simulator",
+            "from": "2023.01",
+            "to": "2023.07",
+            "language": "C++",
+            "desc": [
+                "OpenGL Physics based cloth simulation",
+                "Used Dear ImGui for user interface to control air and other parameters",
+                "Used tasks for devOps"
+            ]
+        },
+        {
+            "label": [ "Machine Learning" , "Python", "Colab", "Deep Learning"],
+            "title": "ETA Predictor",
+            "from": "2023.04",
+            "to": "2023.05",
+            "language": "C++",
+            "desc": [
+                "Detecting significant features based on traffic information of the traffic data set in Kaggle website",
+                "Used d2l library referencing the book Dive into Deep Learning to solve real world problems by analyzing the pattern",
+                "Planning to leverage error function than sigmoid to be robust against outliers"
+            ]
+        },
+        {
+            "label": [ "Machine Learning" , "Python", "Colab", "Deep Learning" ],
+            "title": "Sonette Predictor",
+            "from": "2023.04",
+            "to": "2023.05",
+            "language": "C++",
+            "desc": [
+                "Given the data set of Shakespearean sonnets and the first 40 characters of hint, predicted what will be after the seed",
+                "Generated sequence using attention model to solve the natural language processing problem",
+                "Used d2l module on Pytorch, following the Dive into Deep learning tutorial"
+            ]
+        },
+        {
+            "label": [ "Machine Learning" , "Python", "Colab", "Deep Learning" ],
+            "title": "Sonette Predictor0",
+            "from": "2023.04",
+            "to": "2023.05",
+            "language": "C++",
+            "desc": [
+                "Given the data set of Shakespearean sonnets and the first 40 characters of hint, predicted what will be after the seed",
+                "Generated sequence using attention model to solve the natural language processing problem",
+                "Used d2l module on Pytorch, following the Dive into Deep learning tutorial"
+            ]
+        }
+    ]
+}
