@@ -1,4 +1,30 @@
 {
+    "skills": [
+        "C",
+        "C++",
+        "Java",
+        "Javascript",
+        "puppeteer",
+        "MATLAB",
+        "OpenGL",
+        "Vulkan",
+        "Powershell",
+        "Pytorch",
+        "Tensorflow",
+        "Google Colab",
+        "AWS Sagemaker",
+        "GANs",
+        "lldb",
+        "cmake",
+        "unit test",
+        "GoogleTest",
+        "Pytest",
+        "Jenkins",
+        "Agile",
+        "SCRUM",
+        "Docker",
+        "System Verilog"
+    ],
     "experience" : [
         {
             "label": [ "HTML", "ComputerVision", "Deep Learning", "GANs"],
@@ -103,8 +129,8 @@
             ]
         },
         {
-            "label": [ "Machine Learning" , "Python", "Colab", "Deep Learning" ],
-            "title": "Sonette Predictor0",
+            "label": [ "Firmware Engineer" , "System Verilog", "Colab", "Deep Learning" ],
+            "title": "Denigma",
             "from": "2023.04",
             "to": "2023.05",
             "language": "C++",

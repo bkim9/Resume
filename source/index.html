@@ -7,7 +7,8 @@
     <title>Beomsu Kim Resume</title>      
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
     rel="stylesheet">
-    <script src="./scripts/main.js"></script>
+    <!-- <script src="./clicktocopy.js"></script> -->
+    <script src="./scripts/main.js" type="module"></script>
     <template id="experience-template">
       <article>
         
@@ -96,7 +97,7 @@
     </header>
     <!-- Main contains rest of page components (sidebar, posts) -->
     <main>
-
+      <!-- Address -->
       <address class="contacts">
         Los Angeles, 90005 
         <a href="mailto:kbbss96@gmail.com" >kbbss96@gmail.com</a>
@@ -380,6 +381,8 @@
       <div id="projects"></div>
 
       <output id="output"></output>
+      
+      <span id="snackbar" style="display: none;">copied</span>
     </main>
   </body>
 </html>

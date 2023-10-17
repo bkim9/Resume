@@ -1,3 +1,4 @@
+import {addClickCopy} from "./clicktocopy.js"
 function appendArray(el, arr) {
     arr.forEach( arrEl => {
         // Create DOM element
@@ -17,15 +18,6 @@ function addExp(experinece) {
 
         // Clone
         const clone = template.content.cloneNode(true);
-
-        // experience
-        //      li   .label
-        //#job       .title
-        //#company   .company
-        //#from      .from
-        //#to        .to
-        //#city      .city
-        //#desc li   .desc
         const skilllist = clone.querySelector('#skills-box')
         appendArray(skilllist, experinece.label)
         clone.querySelector('#job').textContent = experinece.title
@@ -49,13 +41,6 @@ function addProj(proj) {
 
         // Clone
         const clone = template.content.cloneNode(true);
-    
-        //       proj.label
-        //           .title
-        //           .from
-        //           .to
-        //           .language
-        //           .decription
         const skilllist = clone.querySelector('#skills-box')
         appendArray(skilllist, proj.label)
         clone.querySelector('#title').textContent = proj.title
@@ -75,10 +60,12 @@ async function importJSON() {
         return res.json(); 
     }) 
     .then((data) => {
-        exp = data.experience;
-        projs= data.projects;
-        // exp.forEach(addExp);
+        const exp = data.experience;
+        const projs= data.projects;
+        exp.forEach(addExp);
         projs.forEach(addProj);
+        addClickCopy();
+
         return data;
     }); 
 }
