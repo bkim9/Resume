@@ -11,11 +11,9 @@ function appendArray(el, arr) {
 
 function addExp(experinece) {
     const expE = document.querySelector('#experiences');
-
     // CreateElement
     if ("content" in document.createElement("template")) {
         const template = document.querySelector("#experience-template");
-
         // Clone
         const clone = template.content.cloneNode(true);
         const skilllist = clone.querySelector('#skills-box')
@@ -33,12 +31,10 @@ function addExp(experinece) {
 }
 
 function addProj(proj) {
-    console.log(proj);
     const projE = document.querySelector('#projects');
     // CreateElement
     if ("content" in document.createElement("template")) {
         const template = document.querySelector("#project-template");
-
         // Clone
         const clone = template.content.cloneNode(true);
         const skilllist = clone.querySelector('#skills-box')
@@ -65,8 +61,7 @@ async function importJSON() {
         exp.forEach(addExp);
         projs.forEach(addProj);
         addClickCopy();
-
         return data;
-    }); 
+    });
 }
 importJSON()
