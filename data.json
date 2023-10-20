@@ -2,7 +2,7 @@
     "skills": [
         "Computer Graphics", "Machine Learning", "Software Engineering", "Computer Security", "Firmware Engineer",
         "C/C++", "Java", "Python", "MATLAB", "System Verilog",
-        "Vulkan", "OpenGL", "Powershell", "GPU", "Unity", "Blender",
+        "Vulkan", "OpenGL", "Powershell", "GPU", "Unity", "Unreal", "Blender",
         "PyTorch", "TensorFlow", "Google Colab", "AWS Sagemaker", "NLP", "LLM", "Transformer", "Attention", "GANs", "CUDA", "OpenCL",
         "lldb", "cmake", "unit test", "GoogleTest",
         "Pytest", "Jenkins", "Agile", "SCRUM", "Docker", "System Verilog",
@@ -37,7 +37,7 @@
             ]
         },
         {
-            "label": [ "Powershell" ],
+            "label": [ "Powershell", "SQL", "Computer Security"],
             "title": "Computer Emergency Response Team Lead",
             "company": "ROK Marine Corps",
             "from": "2020.10",
@@ -45,7 +45,7 @@
             "city": "Incheon, South Korea",
             "desc": [
                 "Managed military vaccine servers for security updates using linux",
-                "Drilled for a possible security breach situation including hacking mail, ransomware training”",
+                "Drilled for a possible security breach situation including hacking mail, ransomware training",
                 "Powershelled routine or repetitive works for efficiency using REST APIs with Powershell",
                 "Allocated IPs and controlled access to the networks for security"
             ]
@@ -89,7 +89,7 @@
             ]
         },
         {
-            "label": [ "Machine Learning" , "Python", "Colab", "Deep Learning" ],
+            "label": [ "Machine Learning" , "Python", "Colab", "Deep Learning", "LLM" ],
             "title": "Sonette Predictor",
             "from": "2023.04",
             "to": "2023.05",
