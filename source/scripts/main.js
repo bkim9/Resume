@@ -1,4 +1,10 @@
 import {addClickCopy} from "./clicktocopy.js"
+
+function clearItems(parent) {
+    while (parent.hasChildNodes())
+        parent.removeChild(parent.firstChild)
+}
+
 function appendArray(el, arr) {
     arr.forEach( arrEl => {
         // Create DOM element
@@ -9,8 +15,45 @@ function appendArray(el, arr) {
     })
 }
 
-function addExp(experinece) {
+function appendSkillButtons(el, arr) {
+    arr.forEach( arrEl => {
+        // Create DOM element
+        let childNode = document.createElement('input');
+        childNode.type = 'checkbox';
+        childNode.className = 'hidden';
+        childNode.checked = true;
+        childNode.name  = arrEl;
+
+        el.appendChild(childNode);
+
+        childNode = document.createElement('label');
+        childNode.className = 'filterby_label';
+        childNode.textContent = arrEl;
+        childNode.setAttribute('for', arrEl);
+        childNode.addEventListener("click", () => {
+            clearItems(document.querySelector('#experiences'));
+            clearItems(document.querySelector('#projects'));
+            childNode.previousSibling.checked = !childNode.previousSibling.checked;
+            display_items(load_items(0));
+        });
+        el.appendChild(childNode);
+    })
+}
+
+function checkFit(item) {
+    let fit = false;
+    const skillEs = document.querySelectorAll('input[type=checkbox]+label')
+
+    for( let l of item.label ) {
+        for( let s of skillEs) 
+            if ( l == s.textContent && s.previousSibling.checked ) fit = true;
+    }
+    return fit;
+}
+
+function displayExp(experinece) {
     const expE = document.querySelector('#experiences');
+    if( !checkFit(experinece) ) return;
     // CreateElement
     if ("content" in document.createElement("template")) {
         const template = document.querySelector("#experience-template");
@@ -30,8 +73,9 @@ function addExp(experinece) {
     }
 }
 
-function addProj(proj) {
+function displayProj(proj) {
     const projE = document.querySelector('#projects');
+    if ( !checkFit(proj) ) return;
     // CreateElement
     if ("content" in document.createElement("template")) {
         const template = document.querySelector("#project-template");
@@ -50,18 +94,61 @@ function addProj(proj) {
     }
 }
 
+/** 
+ * loads the current data from storage and appends
+ *
+ *  @return {Object[]|null} Article Array object from local storage or null if missing
+ */
+
+function load_items(storage_key) {
+    let items = JSON.parse(window.localStorage.getItem(storage_key));
+    if (!items) {
+        return [];
+    } else {
+        return items;
+    }
+}
+  
+/**
+ * Stores items in localStorage
+ *
+ *  @param {Object[]} items - array of items to store
+ */
+function store_items(items, storage_key) {
+    window.localStorage.setItem(storage_key, JSON.stringify(items));
+}
+
+function display_items(data) {
+    const exp = data.experience;
+    const projs= data.projects;    
+    exp.forEach(displayExp);
+    projs.forEach(displayProj);
+    addClickCopy();
+}
+
+// data->localStorage
 async function importJSON() { 
     fetch("./data.json") 
         .then((res) => { 
         return res.json(); 
     }) 
     .then((data) => {
-        const exp = data.experience;
-        const projs= data.projects;
-        exp.forEach(addExp);
-        projs.forEach(addProj);
-        addClickCopy();
+        store_items(data,0);
         return data;
     });
 }
-importJSON()
+
+
+function init() {
+    importJSON();
+
+    let data = load_items(0);
+
+    // append skills buttons
+    const skillsEBox = document.querySelector('details.skills');
+    appendSkillButtons(skillsEBox,data.skills);
+
+    display_items(data);
+}
+
+window.addEventListener("DOMContentLoaded", init);

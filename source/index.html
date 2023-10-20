@@ -5,6 +5,7 @@
   <head>
     <meta chartset="UTF-8" />
     <title>Beomsu Kim Resume</title>      
+    <link rel="stylesheet" href="main.css">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
     rel="stylesheet">
     <script src="./scripts/main.js" type="module"></script>
@@ -12,7 +13,7 @@
       <article>
         
         <!-- Title  -->
-        <div id="title-box">
+        <div id="title-box" class="copy-row-box">
           <h2 id="job">Software Engineer</h2>
           <span class="material-icons" label="copy">
             content_copy
@@ -22,9 +23,9 @@
         <!-- Skills -->
         <ul id="skills-box">
         </ul>
-         
+        
         <!-- Company -->
-        <div id="company-box">
+        <div id="company-box" class="copy-row-box">
           <h4 id="company">MITAA</h3>
           <span class="material-icons" label="copy">
             content_copy
@@ -37,7 +38,7 @@
         <time datetime="2023-09-29" id="to">Present</time>
 
         <!-- City -->
-        <div id="city-box">
+        <div id="city-box" class="copy-row-box">
           <p id="city">Los Angeles</p>
           <span class="material-icons" label="copy">
             content_copy
@@ -45,7 +46,7 @@
         </div>
         
         <!-- Description -->
-        <div id="description-box">
+        <div id="description-box" class="copy-row-box">
           <ul id="desc">
           </ul>
           <span class="material-icons" label="copy">
@@ -58,7 +59,7 @@
     <template id="project-template">
       <article>
         <!-- Title  -->
-        <div id="title-box">
+        <div id="title-box" class="copy-row-box">
             <h2 id="title">Particle System with subdivision</h2>
             <span class="material-icons" label="copy">
                 content_copy
@@ -73,7 +74,7 @@
         <time datetime="2023-09-01" id="to">Sep 2023</time>
 
         <!-- Description -->
-        <div id="description-box">
+        <div id="description-box" class="copy-row-box">
             <ul id="desc"></ul>
             <span class="material-icons" label="copy">
                 content_copy
@@ -86,270 +87,51 @@
 
   <body>
     <!-- Header holds logo and appname -->
-    <header>
-        <h1 id="title">Beomsu Kim</h1>
+    <header class="copy-row-box" >
+        <h1 id="title">Beomsu Kim</h1>           
+        <span class="material-icons" label="copy">
+          content_copy
+        </span>
     </header>
     <!-- Main contains rest of page components (sidebar, posts) -->
     <main>
       <!-- Address -->
       <address class="contacts">
-        Los Angeles, 90005 
-        <a href="mailto:kbbss96@gmail.com" >kbbss96@gmail.com</a>
-        <a href="tel:+1469-818-4342" >469-818-4342</a>
-        <a href="https://instagram.com/beomsucoding?igshid=NzZlODBkYWE4Ng==">profile</a>
-        <a href="https://www.linkedin.com/in/beomsu-kim-4b2322195">Linkedin</a>
-      </address>
-
-      <!-- Interests -->
-      <h2>Interests</h3>
-      <details class="interests">
-        <summary class="filterby_option" id="label_option">
-  
-        </summary>
-        <div class="labels">
-          <input
-            type="button"
-            id="label1"
-            class="filterby_label"
-            value="Computer Graphics"
-          />
-          <input
-            type="button"
-            id="label2"
-            class="filterby_label"
-            value="Machine Learning"
-          />
-          <input
-            type="button"
-            id="label3"
-            class="filterby_label"
-            value="Software Engineering"
-          />
-          <input
-            type="button"
-            id="label4"
-            class="filterby_label"
-            value="Computer Security"
-          />
-          <input
-            type="button"
-            id="label5"
-            class="filterby_label"
-            value="Firware Engineer"
-          />
+        <div class="copy-row-box">
+          <p>Los Angeles</p>
+          <span class="material-icons" label="copy">
+            content_copy
+          </span>
         </div>
-      </details>
+        <div class="copy-row-box">
+          <a href="mailto:kbbss96@gmail.com" >kbbss96@gmail.com</a>
+          <span class="material-icons" label="copy">
+            content_copy
+          </span>
+        </div>
+        <div class="copy-row-box">
+          <a href="tel:+1469-818-4342" >469-818-4342</a>
+          <span class="material-icons" label="copy">
+            content_copy
+          </span>
+        </div>
+        <a href="https://instagram.com/beomsucoding?igshid=NzZlODBkYWE4Ng==">profile</a>
+        <p hidden>https://instagram.com/beomsucoding?igshid=NzZlODBkYWE4Ng==</p>
+        <span class="material-icons" label="copy">
+          content_copy
+        </span>
+        <a href="https://www.linkedin.com/in/beomsu-kim-4b2322195">Linkedin</a>        
+        <p hidden>https://www.linkedin.com/in/beomsu-kim-4b2322195</p>
+        <span class="material-icons" label="copy">
+          content_copy
+        </span>
+      </address>
 
       <!-- Skills -->
       <h2>Skills</h2>
       <details class="skills">
         <summary class="filterby_option" id="label_option">
         </summary>
-          <input
-            type="button"
-            id="label1"
-            class="filterby_label"
-            value="C/C++"
-          />
-          <input
-            type="button"
-            id="label2"
-            class="filterby_label"
-            value="OpenGL"
-          />
-          <input
-            type="button"
-            id="label3"
-            class="filterby_label"
-            value="MATLAB"
-          />
-          <input
-            type="button"
-            id="label5"
-            class="filterby_label"
-            value="Flutter"
-          />
-          <input
-            type="button"
-            id="label4"
-            class="filterby_label"
-            value="Powershell"
-          />
-          <input
-            type="button"
-            id="label5"
-            class="filterby_label"
-            value="Tensorflow"
-          />
-          <input
-            type="button"
-            id="label6"
-            class="filterby_label"
-            value="PyTorch"
-          />
-          <input
-            type="button"
-            id="label7"
-            class="filterby_label"
-            value="CANVA"
-          />
-          <input
-            type="button"
-            id="label8"
-            class="filterby_label"
-            value="ApacheSpark"
-          />
-          <input
-            type="button"
-            id="label9"
-            class="filterby_label"
-            value="VisionOS"
-          />
-          <input
-            type="button"
-            id="label10"
-            class="filterby_label"
-            value="React"
-          />
-          <input
-            type="button"
-            id="label11"
-            class="filterby_label"
-            value="TypeScript"
-          />
-          <input
-            type="button"
-            id="label12"
-            class="filterby_label"
-            value="Docker"
-          />
-          <input
-            type="button"
-            id="label13"
-            class="filterby_label"
-            value="Vulkan"
-          />
-          <input
-            type="button"
-            id="label14"
-            class="filterby_label"
-            value="Unreal"
-          />
-          <input
-            type="button"
-            id="label15"
-            class="filterby_label"
-            value=".NET"
-          />
-          <input
-            type="button"
-            id="label16"
-            class="filterby_label"
-            value="GPU"
-          />
-          <input
-            type="button"
-            id="label17"
-            class="filterby_label"
-            value="SwiftUI"
-          />
-          <input
-            type="button"
-            id="label18"
-            class="filterby_label"
-            value="Unity"
-          />
-          <input
-            type="button"
-            id="label19"
-            class="filterby_label"
-            value="LLM"
-          />
-          <input
-            type="button"
-            id="label20"
-            class="filterby_label"
-            value="iOS"
-          />
-          <input
-            type="button"
-            id="label21"
-            class="filterby_label"
-            value="cryptography"
-          />
-          <input
-            type="button"
-            id="label22"
-            class="filterby_label"
-            value="C#"
-          />
-          <input
-            type="button"
-            id="label23"
-            class="filterby_label"
-            value="Kafka"
-          />
-          <input
-            type="button"
-            id="label22"
-            class="filterby_label"
-            value="SQL"
-          />
-          <input
-            type="button"
-            id="label23"
-            class="filterby_label"
-            value="Rest API"
-          />
-          <input
-            type="button"
-            id="label24"
-            class="filterby_label"
-            value="Gitlab"
-          />
-          <input
-            type="button"
-            id="label25"
-            class="filterby_label"
-            value="GoogleTest"
-          />
-          <input
-            type="button"
-            id="label26"
-            class="filterby_label"
-            value="CMake"
-          />
-          <input
-            type="button"
-            id="label27"
-            class="filterby_label"
-            value="Angular"
-          />
-          <input
-            type="button"
-            id="label28"
-            class="filterby_label"
-            value="Deep Learning"
-          />
-          <input
-            type="button"
-            id="label29"
-            class="filterby_label"
-            value="Colab"
-          />
-          <input
-            type="button"
-            id="label30"
-            class="filterby_label"
-            value="Puppeteer"
-          />
-          <input
-            type="button"
-            id="label31"
-            class="filterby_label"
-            value="GANs"
-          />
-
       </details>
 
       <!-- Education -->
@@ -369,13 +151,16 @@
       <h2>Experience</h2>
       <div id="experiences"></div>
 
+
       <!-- Projects -->
       <h2>Projects</h2>
       <div id="projects"></div>
 
       <output id="output"></output>
       
-      <span id="snackbar" style="display: none;">copied</span>
+      
+      <span id="snackbar">copied</span>
+
     </main>
   </body>
 </html>
