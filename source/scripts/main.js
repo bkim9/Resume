@@ -1,3 +1,4 @@
+// Created by Beomsu Kim on Oct.1st 2023
 import {addClickCopy} from "./clicktocopy.js"
 
 function clearItems(parent) {
@@ -13,6 +14,12 @@ function appendArray(el, arr) {
         childNode.innerHTML = arrEl;
         el.appendChild(childNode);
     })
+}
+
+function updateDisplay() {
+    clearItems(document.querySelector('#experiences'));
+    clearItems(document.querySelector('#projects'));
+    display_items(load_items(0));
 }
 
 function appendSkillButtons(el, arr) {
@@ -31,13 +38,22 @@ function appendSkillButtons(el, arr) {
         childNode.textContent = arrEl;
         childNode.setAttribute('for', arrEl);
         childNode.addEventListener("click", () => {
-            clearItems(document.querySelector('#experiences'));
-            clearItems(document.querySelector('#projects'));
             childNode.previousSibling.checked = !childNode.previousSibling.checked;
-            display_items(load_items(0));
+            updateDisplay();
         });
         el.appendChild(childNode);
     })
+
+    // reset to false after clicking the Skills title
+    const skillTitleE = document.querySelector('#skills-title');
+    skillTitleE.addEventListener("click", ()=>{
+        const checkBoxEs = document.querySelectorAll('input[type=checkbox]');
+        console.log(checkBoxEs);
+        for( const checkBoxE of checkBoxEs ){ 
+            checkBoxE.checked = false; 
+        }
+        updateDisplay();
+    });
 }
 
 function checkFit(item) {
