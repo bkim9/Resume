@@ -123,6 +123,19 @@
                 "Constructed the functionality with a constraint of using only 9 bits for every machine instructions and limited LUTs",
                 "Based on RISC pipelining and clocking to enable the performance escalation of register operations"
             ]
+        },        
+        {
+            "label": [ "Software Engineering" , "Flutter", "Android", "iOS" ],
+            "title": "Customizable Flash Cards App",
+            "from": "2021.09",
+            "to": "2021.12",
+            "language": "Flutter",
+            "desc": [
+                "Memorizing materials supporting both the android and iOS",
+                "Can change color including nightshift with built in color pickers",
+                "Easy to use just have to import an excel file in a right format",
+                "TTS support to reduce burdens of eyes staring at a screen and for accesibility"
+            ]
         },
         {
             "label": [ "Firmware Engineer" , "System Verilog", "Colab", "Deep Learning" ],
