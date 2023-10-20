@@ -2,11 +2,11 @@
     "skills": [
         "Computer Graphics", "Machine Learning", "Software Engineering", "Computer Security", "Firmware Engineer",
         "C/C++", "Java", "Python", "MATLAB", "System Verilog",
-        "Vulkan", "OpenGL", "Powershell", "GPU",
+        "Vulkan", "OpenGL", "Powershell", "GPU", "Unity", "Blender",
         "PyTorch", "Tensorflow", "Google Colab", "AWS Sagemaker", "GANs", "LLM", "Transformer", "Attention", "CUDA", "OpenCL",
         "lldb", "cmake", "unit test", "GoogleTest",
         "Pytest", "Jenkins", "Agile", "SCRUM", "Docker", "System Verilog",
-        "Flutter", "iOS", "SwiftUI",
+        "Flutter", "iOS", "SwiftUI", "VisionOS", "ARKit",
         "Javascript", "TypeScript", "React", "HTML", "CSS", "puppeteer"
     ],
     "experience" : [
