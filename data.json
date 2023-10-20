@@ -2,8 +2,8 @@
     "skills": [
         "Computer Graphics", "Machine Learning", "Software Engineering", "Computer Security", "Firmware Engineer",
         "C/C++", "Java", "Python", "MATLAB", "System Verilog",
-        "Vulkan", "OpenGL", "Powershell", 
-        "PyTorch", "Tensorflow", "Google Colab", "AWS Sagemaker", "GANs", "LLM", "Transformer", "Attention",
+        "Vulkan", "OpenGL", "Powershell", "GPU",
+        "PyTorch", "Tensorflow", "Google Colab", "AWS Sagemaker", "GANs", "LLM", "Transformer", "Attention", "CUDA", "OpenCL",
         "lldb", "cmake", "unit test", "GoogleTest",
         "Pytest", "Jenkins", "Agile", "SCRUM", "Docker", "System Verilog",
         "Flutter", "iOS", "SwiftUI",
@@ -65,7 +65,7 @@
             ]
         },
         {
-            "label": [ "Computer Graphics" , "C/C++", "Multithread"],
+            "label": [ "Computer Graphics" , "C/C++", "Multithread", "lldb"],
             "title": "Ray Tracing and Tone Mapping",
             "from": "2023.04",
             "to": "2023.07",
@@ -74,18 +74,6 @@
                 "Ray tracing renderer with bounding volume hierarchy and multithread acceleration",
                 "Importance sampled for integration for area lights and used GoogleTest",
                 "Several Tone Mapping strategies are used"
-            ]
-        },
-        {
-            "label": [ "Computer Graphics" , "C++", "Dear ImGui"],
-            "title": "Cloth Simulator",
-            "from": "2023.01",
-            "to": "2023.07",
-            "language": "C++",
-            "desc": [
-                "OpenGL Physics based cloth simulation",
-                "Used Dear ImGui for user interface to control air and other parameters",
-                "Used tasks for devOps"
             ]
         },
         {
@@ -125,19 +113,6 @@
             ]
         },        
         {
-            "label": [ "Software Engineering" , "Flutter", "Android", "iOS" ],
-            "title": "Customizable Flash Cards App",
-            "from": "2021.09",
-            "to": "2021.12",
-            "language": "Flutter",
-            "desc": [
-                "Memorizing materials supporting both the android and iOS",
-                "Can change color including nightshift with built in color pickers",
-                "Easy to use just have to import an excel file in a right format",
-                "TTS support to reduce burdens of eyes staring at a screen and for accesibility"
-            ]
-        },
-        {
             "label": [ "Software Engineering" , "Nodejs" ],
             "title": "Note Taking Site",
             "link": "https://cse110-fa22-group7.github.io/cse110-fa22-group7-project/source/main.html",
@@ -148,6 +123,31 @@
                 "Simple note taking site of CRUD functionality using HTML, CSS, and JavaScript to keep a diary for a day",
                 "CICD pipelined workflow and Agile to cooperate with the team on the development of the app",
                 "Team Project done in Software Engineering class to practice agile with slack to deploy a note taking site"
+            ]
+        },
+        {
+            "label": [ "Computer Graphics" , "C++", "Dear ImGui"],
+            "title": "Cloth Simulator",
+            "from": "2023.01",
+            "to": "2023.07",
+            "language": "C++",
+            "desc": [
+                "OpenGL Physics based cloth simulation",
+                "Used Dear ImGui for user interface to control air and other parameters",
+                "Used tasks for devOps"
+            ]
+        },
+        {
+            "label": [ "Software Engineering" , "Flutter", "Android", "iOS" ],
+            "title": "Customizable Flash Cards App",
+            "from": "2021.09",
+            "to": "2021.12",
+            "language": "Flutter",
+            "desc": [
+                "Memorizing materials supporting both the android and iOS",
+                "Can change color including nightshift with built in color pickers",
+                "Easy to use just have to import an excel file in a right format",
+                "TTS support to reduce burdens of eyes staring at a screen and for accesibility"
             ]
         },
         {

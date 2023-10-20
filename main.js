@@ -48,7 +48,6 @@ function appendSkillButtons(el, arr) {
     const skillTitleE = document.querySelector('#skills-title');
     skillTitleE.addEventListener("click", ()=>{
         const checkBoxEs = document.querySelectorAll('input[type=checkbox]');
-        console.log(checkBoxEs);
         for( const checkBoxE of checkBoxEs ){ 
             checkBoxE.checked = false; 
         }
