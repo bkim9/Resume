@@ -26,8 +26,11 @@ async function copyContent(copyText) {
 function snackbar() {
   // snackbar eleement
   var snackbarE = document.querySelector("#snackbar")
-  snackbarE.style.display = ""
-  // remove 3 second later
-  setTimeout(function(){ snackbarE.style.display = "none"; }, 3000);
+  snackbarE.style.display = "inline"
+  // remove 2 second later
+
+  setTimeout(function(){ snackbarE.style.display = "none"; }, 2000);
+
 }
-document.addEventListener("DOMContentUpdated", addClickCopy);
+
+// document.addEventListener("DOMContentUpdated", addClickCopy);

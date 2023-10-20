@@ -1,33 +1,15 @@
 {
     "skills": [
-        "C",
-        "C++",
-        "Java",
-        "Javascript",
-        "puppeteer",
-        "MATLAB",
-        "OpenGL",
-        "Vulkan",
-        "Powershell",
-        "Pytorch",
-        "Tensorflow",
-        "Google Colab",
-        "AWS Sagemaker",
-        "GANs",
-        "lldb",
-        "cmake",
-        "unit test",
-        "GoogleTest",
-        "Pytest",
-        "Jenkins",
-        "Agile",
-        "SCRUM",
-        "Docker",
-        "System Verilog"
+        "Computer Graphics", "Machine Learning", "Software Engineering", "Computer Security", "Firmware Engineer",
+        "C/C++", "Java","Javascript", "puppeteer","MATLAB","OpenGL",
+        "Vulkan", "Powershell", "PyTorch", "Tensorflow", "Google Colab",
+        "AWS Sagemaker", "GANs", "lldb", "cmake", "unit test", "GoogleTest",
+        "Pytest", "Jenkins", "Agile", "SCRUM", "Docker", "System Verilog",
+        "Flutter", "iOS", "SwiftUI"
     ],
     "experience" : [
         {
-            "label": [ "HTML", "ComputerVision", "Deep Learning", "GANs"],
+            "label": [ "HTML", "ComputerVision", "Deep Learning", "GANs", "PyTorch", "Software Engineering"],
             "title": "Software Engineer",
             "company": "MITAA",
             "from": "2023.09",
@@ -40,7 +22,7 @@
             ]
         },
         {
-            "label": [ "Deep Learning", "Tensorflow", "Computer Vision"],
+            "label": [ "Deep Learning", "Machine Learning", "Tensorflow", "PyTorch", "Computer Vision"],
             "title": "Machine Learning Engineer Intern",
             "company": "AT Solution",
             "from": "2022.04",
@@ -69,7 +51,7 @@
     ],
     "projects" : [
         {
-            "label": [ "Computer Graphics" , "C++", "Multithread"],
+            "label": [ "Computer Graphics" , "C/C++", "Multithread"],
             "title": "Particle System with subdivision",
             "from": "2023.08",
             "to": "2023.09",
@@ -81,7 +63,7 @@
             ]
         },
         {
-            "label": [ "Computer Graphics" , "C++", "Multithread"],
+            "label": [ "Computer Graphics" , "C/C++", "Multithread"],
             "title": "Ray Tracing and Tone Mapping",
             "from": "2023.04",
             "to": "2023.07",
@@ -105,7 +87,7 @@
             ]
         },
         {
-            "label": [ "Machine Learning" , "Python", "Colab", "Deep Learning"],
+            "label": [ "Machine Learning" , "Python", "Colab", "Deep Learning", "PyTorch"],
             "title": "ETA Predictor",
             "from": "2023.04",
             "to": "2023.05",
@@ -125,7 +107,7 @@
             "desc": [
                 "Given the data set of Shakespearean sonnets and the first 40 characters of hint, predicted what will be after the seed",
                 "Generated sequence using attention model to solve the natural language processing problem",
-                "Used d2l module on Pytorch, following the Dive into Deep learning tutorial"
+                "Used d2l module on PyTorch, following the Dive into Deep learning tutorial"
             ]
         },
         {
@@ -135,9 +117,33 @@
             "to": "2023.05",
             "language": "C++",
             "desc": [
-                "Given the data set of Shakespearean sonnets and the first 40 characters of hint, predicted what will be after the seed",
-                "Generated sequence using attention model to solve the natural language processing problem",
-                "Used d2l module on Pytorch, following the Dive into Deep learning tutorial"
+                "Cipher RTL design project that encrypts and decrypts a string using LFSR ",
+                "Constructed the functionality with a constraint of using only 9 bits for every machine instructions and limited LUTs",
+                "Based on RISC pipelining and clocking to enable the performance escalation of register operations"
+            ]
+        },
+        {
+            "label": [ "Firmware Engineer" , "System Verilog", "Colab", "Deep Learning" ],
+            "title": "SHA256",
+            "from": "2020.04",
+            "to": "2020.05",
+            "language": "System Verilog",
+            "desc": [
+                "Low level RTL design of SHA256 developed with Quartus Prime to generate SHA 256 output of a given input",
+                "Built FPGA system to produce a desired output",
+                "Used waveform feature to debug testbenches to verify the performance"
+            ]
+        },
+        {
+            "label": [ "Firmware Engineer" , "System Verilog", "Colab", "Deep Learning" ],
+            "title": "LCD Drivers",
+            "from": "2019.01",
+            "to": "2019.02",
+            "language": "ARM-Cortex M4",
+            "desc": [
+                "Printed letters on the display of an LCD driver using ARM assembly language",
+                "Leveraged given mnemonics to interact with the embedded driver",
+                "Used waveforms feature to debug testbenches and verify the performance"
             ]
         }
     ]
