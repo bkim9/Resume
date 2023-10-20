@@ -3,7 +3,7 @@
         "Computer Graphics", "Machine Learning", "Software Engineering", "Computer Security", "Firmware Engineer",
         "C/C++", "Java", "Python", "MATLAB", "System Verilog",
         "Vulkan", "OpenGL", "Powershell", "GPU", "Unity", "Blender",
-        "PyTorch", "Tensorflow", "Google Colab", "AWS Sagemaker", "GANs", "LLM", "Transformer", "Attention", "CUDA", "OpenCL",
+        "PyTorch", "TensorFlow", "Google Colab", "AWS Sagemaker", "NLP", "LLM", "Transformer", "Attention", "GANs", "CUDA", "OpenCL",
         "lldb", "cmake", "unit test", "GoogleTest",
         "Pytest", "Jenkins", "Agile", "SCRUM", "Docker", "System Verilog",
         "Flutter", "iOS", "SwiftUI", "VisionOS", "ARKit",
@@ -24,14 +24,14 @@
             ]
         },
         {
-            "label": [ "Deep Learning", "Machine Learning", "Tensorflow", "PyTorch", "Computer Vision"],
+            "label": [ "Deep Learning", "Machine Learning", "TensorFlow", "PyTorch", "Computer Vision"],
             "title": "Machine Learning Engineer Intern",
             "company": "AT Solution",
             "from": "2022.04",
             "to": "2023.01",
             "city": "Busan, South Korea",
             "desc": [
-                "Used Tensorflow to practice basic machine learning at a commercial industry field",
+                "Used TensorFlow to practice basic machine learning at a commercial industry field",
                 "Cooperated with government organizations to generate a model to detect a pattern recognition in an image dataset",
                 "Served as an exhibitor for the company’s booth at CES 2023 in Las Vegas and Collaborate with the team members to convince the potential customer of the products"
             ]
