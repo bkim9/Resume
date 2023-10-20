@@ -99,11 +99,20 @@ function displayProj(proj) {
         const clone = template.content.cloneNode(true);
         const skilllist = clone.querySelector('#skills-box')
         appendArray(skilllist, proj.label)
-        clone.querySelector('#title').textContent = proj.title
+        const cloneTitleE = clone.querySelector('#title');
+        // if link exists in proj, attatch it
+        if ( proj.link ){
+            const aE = document.createElement("a");
+            aE.href = proj.link;
+            aE.textContent = proj.title;
+            cloneTitleE.appendChild(aE);
+        } else {
+            cloneTitleE.textContent = proj.title
+        }
         clone.querySelector('#from').textContent = proj.from
         clone.querySelector('#to').textContent = proj.to
-        // clone.querySelector('#language').textContent = proj.language
         const desclist = clone.querySelector('#desc')
+
         appendArray(desclist, proj.desc)
         // appendChild
         projE.appendChild(clone);

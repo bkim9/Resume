@@ -138,6 +138,19 @@
             ]
         },
         {
+            "label": [ "Software Engineering" , "Nodejs" ],
+            "title": "Note Taking Site",
+            "link": "https://cse110-fa22-group7.github.io/cse110-fa22-group7-project/source/main.html",
+            "from": "2023.03",
+            "to": "2023.05",
+            "language": "Javascript",
+            "desc": [
+                "Simple note taking site of CRUD functionality using HTML, CSS, and JavaScript to keep a diary for a day",
+                "CICD pipelined workflow and Agile to cooperate with the team on the development of the app",
+                "Team Project done in Software Engineering class to practice agile with slack to deploy a note taking site"
+            ]
+        },
+        {
             "label": [ "Firmware Engineer" , "System Verilog", "Colab", "Deep Learning" ],
             "title": "SHA256",
             "from": "2020.04",
