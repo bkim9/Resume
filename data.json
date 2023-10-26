@@ -11,7 +11,7 @@
     ],
     "experience" : [
         {
-            "label": [ "HTML", "React", "ComputerVision", "Deep Learning", "GANs", "PyTorch", "Software Engineering"],
+            "label": [ "HTML", "React", "ComputerVision", "Machine Learning", "Deep Learning", "GANs", "PyTorch", "Software Engineering"],
             "title": "Software Engineer",
             "company": "MITAA",
             "from": "2023.09",
@@ -52,6 +52,19 @@
         }
     ],
     "projects" : [
+        {
+            "label": [ "Machine Learning" , "Python", "PyTorch", "TensorFlow", "MxNet", "d2l" ],
+            "title": "Dive into Deep Learning",
+            "link": "./colab",
+            "from": "2023.07",
+            "to": "2023.10",
+            "language": "Python",
+            "desc": [
+                "Implemented the concept of machine learing following the guide in the book <i>Dive into Machine Learning</i>",
+                "Recommender System, Generative Adversarial Networks, Transformer, Deep FM",
+                "Colabed for producing immediate output and feed back"
+            ]
+        },
         {
             "label": [ "Computer Graphics" , "C/C++", "Multithread"],
             "title": "Particle System with subdivision",
