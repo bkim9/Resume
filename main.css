@@ -21,6 +21,10 @@ header {
     padding: .5rem;
 }
 
+main {
+    padding: 2rem;
+}
+
 .copy-row-box { 
     display: flex;
     flex-direction: row;
@@ -132,6 +136,12 @@ input[type=checkbox]:checked+label {
     header {
         background-color: white;
     }
+
+    main {
+        padding: .5rem;
+    }
+    
+
     /* address */
     address * {
         color:rgb(35, 127, 97);

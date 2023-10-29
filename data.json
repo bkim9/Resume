@@ -183,7 +183,7 @@
             "to": "Feb.2019",
             "language": "ARM-Cortex M4",
             "desc": [
-                "Printed letters on the display of an LCD driver using ARM assembly language",
+                "Printed letters on the display of an LCD driver using <b>ARM</b> assembly language",
                 "Leveraged given mnemonics to interact with the embedded driver",
                 "Used waveforms feature to debug testbenches and verify the performance"
             ]
