@@ -14,11 +14,11 @@
             "label": [ "HTML", "React", "ComputerVision", "Machine Learning", "Deep Learning", "GANs", "PyTorch", "Software Engineering"],
             "title": "Software Engineer",
             "company": "MITAA",
-            "from": "2023.09",
+            "from": "Sep.2023",
             "to": "Now",
             "city": "Los Angeles",
             "desc": [
-                "Constructing company’s  website for memory clinic using React Native",
+                "Constructing company’s  website for memory clinic using <b>React Native</b>",
                 "Managing patient dataset to develop GANs to analyze medical images to prescribe Alzheimer's disease",
                 "Building neurological knowledge through working with the physician"
             ]
@@ -27,8 +27,8 @@
             "label": [ "Deep Learning", "Machine Learning", "TensorFlow", "PyTorch", "Computer Vision"],
             "title": "Machine Learning Engineer Intern",
             "company": "AT Solution",
-            "from": "2022.04",
-            "to": "2023.01",
+            "from": "Apr.2022",
+            "to": "Jan.2023",
             "city": "Busan, South Korea",
             "desc": [
                 "<b>TensorFlow</b> for data engineering at a commercial industry field",
@@ -40,8 +40,8 @@
             "label": [ "Powershell", "SQL", "Computer Security"],
             "title": "Computer Emergency Response Team Lead",
             "company": "ROK Marine Corps",
-            "from": "2020.10",
-            "to": "2022.04",
+            "from": "Oct.2020",
+            "to": "Apr.2022",
             "city": "Incheon, South Korea",
             "desc": [
                 "Managed military vaccine servers for security updates using linux",
@@ -56,8 +56,8 @@
             "label": [ "Machine Learning" , "Python", "PyTorch", "TensorFlow", "MxNet", "d2l" ],
             "title": "Dive into Deep Learning",
             "link":  "./colab",
-            "from":  "2023.07",
-            "to":    "2023.10",
+            "from":  "Jul.2023",
+            "to":    "Oct.2023",
             "language": "Python",
             "desc": [
                 "Implemented the concept of machine learing following the guide in <i>Dive into Machine Learning</i>",
@@ -69,8 +69,8 @@
             "label": [ "Computer Graphics" , "C/C++", "Multithread"],
             "title": "Particle System with subdivision",
             "img" :  "./images/gpu_render.jpg",
-            "from":  "2023.08",
-            "to"  :  "2023.09",
+            "from":  "Aug.2023",
+            "to"  :  "Sep.2023",
             "language": "C++",
             "desc": [
                 "<b>Advanced GPU rendering</b> based on the Forge engine <b>Vulkan</b> and <b>DirectX</b> pipeline simulating particle collision responses",
@@ -81,8 +81,8 @@
         {
             "label": [ "Computer Graphics" , "C/C++", "Multithread", "lldb"],
             "title": "Ray Tracing and Tone Mapping",
-            "from": "2023.04",
-            "to": "2023.07",
+            "from": "Apr.2023",
+            "to": "Jul.2023",
             "language": "C++",
             "desc": [
                 "Ray tracing renderer with <b>BVH</b> and multithread acceleration",
@@ -93,8 +93,8 @@
         {
             "label": [ "Machine Learning" , "Python", "Colab", "Deep Learning", "PyTorch"],
             "title": "ETA Predictor",
-            "from": "2023.04",
-            "to": "2023.05",
+            "from": "Apr.2023",
+            "to": "May.2023",
             "language": "C++",
             "desc": [
                 "Feature engineered based on traffic information of the traffic data set in <b>Kaggle</b>",
@@ -105,8 +105,8 @@
         {
             "label": [ "Machine Learning" , "Python", "Colab", "Deep Learning", "LLM" ],
             "title": "Sonette Predictor",
-            "from": "2023.04",
-            "to": "2023.05",
+            "from": "Apr.2023",
+            "to": "May.2023",
             "language": "C++",
             "desc": [
                 "Given the data set of Shakespearean sonnets and the first 40 characters of hint, predicted what will be after the seed",
@@ -117,8 +117,8 @@
         {
             "label": [ "Firmware Engineer" , "System Verilog", "Colab", "Deep Learning" ],
             "title": "Denigma",
-            "from": "2023.04",
-            "to": "2023.05",
+            "from": "Apr.2023",
+            "to": "May.2023",
             "language": "C++",
             "desc": [
                 "<b>Cipher RTL</b> design project that encrypts and decrypts with <b>LFSR</b>",
@@ -130,8 +130,8 @@
             "label": [ "Software Engineering" , "Nodejs" ],
             "title": "Note Taking Site",
             "link": "https://cse110-fa22-group7.github.io/cse110-fa22-group7-project/source/main.html",
-            "from": "2023.03",
-            "to": "2023.05",
+            "from": "Mar.2023",
+            "to": "May.2023",
             "language": "Javascript",
             "desc": [
                 "Note taking site of <b>CRUD</b> functionality using <b>HTML, CSS, and JavaScript</b> for a diary",
@@ -142,8 +142,8 @@
         {
             "label": [ "Computer Graphics" , "C++", "Dear ImGui"],
             "title": "Cloth Simulator",
-            "from": "2023.01",
-            "to": "2023.07",
+            "from": "Jan.2023",
+            "to": "Jul.2023",
             "language": "C++",
             "desc": [
                 "<b>OpenGL</b> Physics based cloth simulation",
@@ -154,8 +154,8 @@
         {
             "label": [ "Software Engineering" , "Flutter", "Android", "iOS" ],
             "title": "Customizable Flash Cards App",
-            "from": "2021.09",
-            "to": "2021.12",
+            "from": "Sep.2021",
+            "to": "Dec.2021",
             "language": "Flutter",
             "desc": [
                 "Memorizing materials supporting both the <b>android</b> and <b>iOS</b>",
@@ -167,8 +167,8 @@
         {
             "label": [ "Firmware Engineer" , "System Verilog", "Colab", "Deep Learning" ],
             "title": "SHA256",
-            "from": "2020.04",
-            "to": "2020.05",
+            "from": "Apr.2020",
+            "to": "May.2020",
             "language": "System Verilog",
             "desc": [
                 "<b>RTL design</b> of SHA256 to generate SHA 256 outputs",
@@ -179,8 +179,8 @@
         {
             "label": [ "Firmware Engineer" , "System Verilog", "Colab", "Deep Learning" ],
             "title": "LCD Drivers",
-            "from": "2019.01",
-            "to": "2019.02",
+            "from": "Jan.2019",
+            "to": "Feb.2019",
             "language": "ARM-Cortex M4",
             "desc": [
                 "Printed letters on the display of an LCD driver using ARM assembly language",
