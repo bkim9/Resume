@@ -1,6 +1,7 @@
 .duration-box {
     display: flex;
     justify-content: right;
+    font-size: small;
 }
 
 .duration-box * {
@@ -22,7 +23,6 @@ article {
     width: 25rem;
     display: flex;
     flex-direction: row;
-    /* justify-content: flex-start; */
 }
 /* skills */
 #skills-box {
