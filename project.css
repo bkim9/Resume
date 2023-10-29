@@ -20,18 +20,21 @@ article {
 }
 
 .upper-desc ul {
-    width: 25rem;
     display: flex;
     flex-direction: row;
+    justify-content: space-between;
 }
 /* skills */
 #skills-box {
+    width: 80%;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: flex-start;
+    flex-wrap: wrap;
 }
 
 #skills-box li {
     font-size: small;
+    margin-right: 2rem;
     opacity: .6;
 }
 

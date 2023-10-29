@@ -104,7 +104,6 @@ input[type=checkbox]+label {
     font-weight: bold;
 }
 
-
 input[type=checkbox]:checked+label {
     color: #ccc;
     background-color: rgb(0, 74, 9);
@@ -137,6 +136,12 @@ input[type=checkbox]:checked+label {
     address * {
         color:rgb(35, 127, 97);
     }
+
+    input[type=checkbox]:not(:checked)+label {
+        display: none;
+        color: black;
+    }
+
     h1 a {
         color:black;
     }
