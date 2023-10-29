@@ -73,9 +73,9 @@
             "to"  :  "Sep.2023",
             "language": "C++",
             "desc": [
-                "<b>Advanced GPU rendering</b> based on the Forge engine <b>Vulkan</b> and <b>DirectX</b> pipeline simulating particle collision responses",
+                "Advanced GPU rendering based on TF engine(<b>AAA</b>) <b>Vulkan</b> and <b>DirectX</b> pipeline simulating particle collision responses",
                 "Instanced, indirect, and indirect with compute <b>shader rendering options</b> to compare the performance between them",
-                "LOD strategy used for performance acceleration"
+                "<b>LOD</b> strategy used for performance acceleration"
             ]
         },
         {
