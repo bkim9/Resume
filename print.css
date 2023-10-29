@@ -6,8 +6,8 @@
 }
 
 html {
-    background-color: black;
-    color: white;
+    background-color: white;
+    color: black;
     font-family: 'Courier New', Courier, monospace;
 }
 
@@ -16,7 +16,7 @@ header {
     justify-content: center;
     align-items: center;
     height: 2.5rem;
-    background-color: darkslategray;
+    background-color: white;
     opacity: .8;
     padding: .5rem;
 }
@@ -40,23 +40,15 @@ span.material-icons:hover {
     position: fixed;
     bottom: .3rem;
     right: 50%;
-    color: lightblue; 
+    color: lightblue ; 
     font-weight: bold;
-}
-
-address {
-    height: 2.5rem;
-    display: flex;
-    justify-content: center;
-    align-items: center;
 }
 
 /* address */
 address * {
-    color:rgb(69, 180, 143);
+    color:rgb(35, 127, 97);
     text-decoration: none;
 }
-
 h1 a {
     font-size: 2rem;
 }
@@ -64,13 +56,13 @@ h1 a {
 /* h1 */
 h1 * {
     text-decoration: none;
-    color:white;
+    color:black;
 }
 
 /* h2 */
 h2 {
     text-align: center;
-    color: lightcoral;
+    color: rgb(237, 97, 97);
 }
 
 h2 a {
@@ -81,16 +73,6 @@ h2#title, #job {
     color: rgb(97, 154, 219);
 }
 
-h2.subtitle {
-    text-align: start;
-}
-
-hr.divider {
-    border-color:rgb(21, 9, 9);
-    border-width: .1rem;
-    margin: .4rem 0;
-}
-
 /* checkbox */
 .hidden {
     visibility: hidden;
@@ -98,7 +80,7 @@ hr.divider {
 
 input[type=checkbox]+label {
     color: #ccc;
-    background-color: rgb(21, 26, 62);
+    background-color: rgb(111, 8, 8);
 
     border-radius: .2rem;
     font-weight: bold;
@@ -119,42 +101,3 @@ input[type=checkbox]:checked+label {
     display: flex;
     justify-content: space-between;
 }
-
-/* wide screen */
-@media screen and (min-width: 1400px) {
-}
-
-/* media print */
-@media print {
-    html {
-        background-color: white;
-        color: black;
-    }
-    header {
-        background-color: white;
-    }
-    /* address */
-    address * {
-        color:rgb(35, 127, 97);
-    }
-    h1 a {
-        color:black;
-    }
-
-    h2 {
-        color: rgb(237, 97, 97);
-    }
-
-    h2 a {
-        color: rgb(22, 145, 104);
-    }
-    
-    hr.divider {
-        border-style: solid;
-        border-color:rgb(255, 168, 168);
-    }
-
-    .material-icons {
-       visibility: hidden;
-    }
- }

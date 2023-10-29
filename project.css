@@ -1,0 +1,48 @@
+.duration-box {
+    display: flex;
+    justify-content: right;
+}
+
+.duration-box * {
+    margin-left: 1rem; 
+    font-size: small;
+} 
+
+article {
+    margin: 1rem;
+}
+
+.upper-desc {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.upper-desc ul {
+    width: 25rem;
+    display: flex;
+    flex-direction: row;
+    /* justify-content: flex-start; */
+}
+/* skills */
+#skills-box {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#skills-box li {
+    font-size: small;
+    opacity: .6;
+}
+
+#city {
+    font-size: small;
+}
+
+#description-box {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+

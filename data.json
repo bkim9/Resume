@@ -31,8 +31,8 @@
             "to": "2023.01",
             "city": "Busan, South Korea",
             "desc": [
-                "Used TensorFlow to practice basic machine learning at a commercial industry field",
-                "Cooperated with government organizations to generate a model to detect a pattern recognition in an image dataset",
+                "<b>TensorFlow</b> for data engineering at a commercial industry field",
+                "Generated a model to detect a pattern recognition in an image dataset",
                 "Served as an exhibitor for the company’s booth at CES 2023 in Las Vegas and Collaborate with the team members to convince the potential customer of the products"
             ]
         },
@@ -46,7 +46,7 @@
             "desc": [
                 "Managed military vaccine servers for security updates using linux",
                 "Drilled for a possible security breach situation including hacking mail, ransomware training",
-                "Powershelled routine or repetitive works for efficiency using REST APIs with Powershell",
+                "<b>Powershelled</b> routine or repetitive works for efficiency using <b>REST APIs</b>",
                 "Allocated IPs and controlled access to the networks for security"
             ]
         }
@@ -55,26 +55,27 @@
         {
             "label": [ "Machine Learning" , "Python", "PyTorch", "TensorFlow", "MxNet", "d2l" ],
             "title": "Dive into Deep Learning",
-            "link": "./colab",
-            "from": "2023.07",
-            "to": "2023.10",
+            "link":  "./colab",
+            "from":  "2023.07",
+            "to":    "2023.10",
             "language": "Python",
             "desc": [
-                "Implemented the concept of machine learing following the guide in the book <i>Dive into Machine Learning</i>",
-                "Recommender System, Generative Adversarial Networks, Transformer, Deep FM",
+                "Implemented the concept of machine learing following the guide in <i>Dive into Machine Learning</i>",
+                "<b>Recommender System</b>, <b>GANs</b>, <b>Transformer</b>, <b>Deep FM</b>",
                 "Colabed for producing immediate output and feed back"
             ]
         },
         {
             "label": [ "Computer Graphics" , "C/C++", "Multithread"],
             "title": "Particle System with subdivision",
-            "from": "2023.08",
-            "to": "2023.09",
+            "img" :  "./images/gpu_render.jpg",
+            "from":  "2023.08",
+            "to"  :  "2023.09",
             "language": "C++",
             "desc": [
                 "<b>Advanced GPU rendering</b> based on the Forge engine <b>Vulkan</b> and <b>DirectX</b> pipeline simulating particle collision responses",
                 "Instanced, indirect, and indirect with compute <b>shader rendering options</b> to compare the performance between them",
-                "Supported various features including alternating between shapes and moving 3D texts"
+                "LOD strategy used for performance acceleration"
             ]
         },
         {
@@ -84,9 +85,9 @@
             "to": "2023.07",
             "language": "C++",
             "desc": [
-                "Ray tracing renderer with bounding volume hierarchy and multithread acceleration",
-                "Importance sampled for integration for area lights and used GoogleTest",
-                "Several Tone Mapping strategies are used"
+                "Ray tracing renderer with <b>BVH</b> and multithread acceleration",
+                "<b>Importance sampled</b> for area lights and used GoogleTest",
+                "Several <b>Tone Mapping</b> strategies are used"
             ]
         },
         {
@@ -96,8 +97,8 @@
             "to": "2023.05",
             "language": "C++",
             "desc": [
-                "Detecting significant features based on traffic information of the traffic data set in Kaggle website",
-                "Used d2l library referencing the book Dive into Deep Learning to solve real world problems by analyzing the pattern",
+                "Feature engineered based on traffic information of the traffic data set in <b>Kaggle</b>",
+                "Used <b>d2l</b> library referencing the book Dive into Deep Learning to solve real world problems by analyzing the pattern",
                 "Planning to leverage error function than sigmoid to be robust against outliers"
             ]
         },
@@ -109,8 +110,8 @@
             "language": "C++",
             "desc": [
                 "Given the data set of Shakespearean sonnets and the first 40 characters of hint, predicted what will be after the seed",
-                "Generated sequence using attention model to solve the natural language processing problem",
-                "Used d2l module on PyTorch, following the Dive into Deep learning tutorial"
+                "Generated sequences using <b>attention</b> model to solve the natural language processing problem",
+                "Used d2l module on <b>PyTorch</b>, following the Dive into Deep learning tutorial"
             ]
         },
         {
@@ -120,7 +121,7 @@
             "to": "2023.05",
             "language": "C++",
             "desc": [
-                "Cipher RTL design project that encrypts and decrypts a string using LFSR ",
+                "<b>Cipher RTL</b> design project that encrypts and decrypts with <b>LFSR</b>",
                 "Constructed the functionality with a constraint of using only 9 bits for every machine instructions and limited LUTs",
                 "Based on RISC pipelining and clocking to enable the performance escalation of register operations"
             ]
@@ -133,8 +134,8 @@
             "to": "2023.05",
             "language": "Javascript",
             "desc": [
-                "Simple note taking site of CRUD functionality using HTML, CSS, and JavaScript to keep a diary for a day",
-                "CICD pipelined workflow and Agile to cooperate with the team on the development of the app",
+                "Note taking site of <b>CRUD</b> functionality using <b>HTML, CSS, and JavaScript</b> for a diary",
+                "<b>CICD</b> pipelined workflow and Agile to cooperate with the team on the development of the app",
                 "Team Project done in Software Engineering class to practice agile with slack to deploy a note taking site"
             ]
         },
@@ -145,9 +146,9 @@
             "to": "2023.07",
             "language": "C++",
             "desc": [
-                "OpenGL Physics based cloth simulation",
-                "Used Dear ImGui for user interface to control air and other parameters",
-                "Used tasks for devOps"
+                "<b>OpenGL</b> Physics based cloth simulation",
+                "<b>Dear ImGui</b> for user interface to control air and other parameters",
+                "Used <b>tasks</b> for devOps"
             ]
         },
         {
@@ -157,10 +158,10 @@
             "to": "2021.12",
             "language": "Flutter",
             "desc": [
-                "Memorizing materials supporting both the android and iOS",
-                "Can change color including nightshift with built in color pickers",
+                "Memorizing materials supporting both the <b>android</b> and <b>iOS</b>",
+                "Supported nightshift and color pickers",
                 "Easy to use just have to import an excel file in a right format",
-                "TTS support to reduce burdens of eyes staring at a screen and for accesibility"
+                "<b>TTS</b> support to reduce burdens of eyes staring at a screen and for accesibility"
             ]
         },
         {
@@ -170,7 +171,7 @@
             "to": "2020.05",
             "language": "System Verilog",
             "desc": [
-                "Low level RTL design of SHA256 developed with Quartus Prime to generate SHA 256 output of a given input",
+                "<b>RTL design</b> of SHA256 to generate SHA 256 outputs",
                 "Built FPGA system to produce a desired output",
                 "Used waveform feature to debug testbenches to verify the performance"
             ]
