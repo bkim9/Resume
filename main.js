@@ -12,7 +12,7 @@ function appendArray(el, arr, hidden=false) {
         let childNode = document.createElement('li');
         // Set content to current element
         childNode.innerHTML = arrEl;
-        if (hidden) childNode.innerHTML = "- " + childNode.innerText
+        if (hidden) childNode.innerHTML = "\u2022 " + childNode.innerText
         if (hidden && !first) childNode.innerHTML = "\n" + childNode.innerText;
         el.appendChild(childNode);
         first=false
