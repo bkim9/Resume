@@ -2,8 +2,8 @@
     "skills": [
         "Computer Graphics", "Machine Learning", "Software Engineering", "Computer Security", "Firmware Engineer",
         "C/C++", "Java", "Python", "MATLAB", "System Verilog",
-        "Vulkan", "OpenGL", "Powershell", "GPU", "Unity", "Unreal", "Blender",
-        "PyTorch", "TensorFlow", "Google Colab", "AWS Sagemaker", "NLP", "LLM", "Transformer", "Attention", "GANs", "CUDA", "OpenCL",
+        "Vulkan", "OpenGL", "Metal", "Powershell", "GPU", "Unity", "Unreal", "Blender",
+        "PyTorch", "TensorFlow", "Google Colab", "AWS Sagemaker", "NLP", "nltk", "LLM", "Transformer", "Attention", "GANs", "CUDA", "OpenCL", 
         "lldb", "cmake", "unit test", "GoogleTest",
         "Pytest", "Jenkins", "Agile", "SCRUM", "Docker", "System Verilog",
         "Flutter", "iOS", "SwiftUI", "VisionOS", "ARKit",
