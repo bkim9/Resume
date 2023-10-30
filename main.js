@@ -6,13 +6,16 @@ function clearItems(parent) {
         parent.removeChild(parent.firstChild)
 }
 
-function appendArray(el, arr) {
+function appendArray(el, arr, hidden=false) {
+    let first = true
     arr.forEach( arrEl => {
-        // Create DOM element
         let childNode = document.createElement('li');
         // Set content to current element
         childNode.innerHTML = arrEl;
+        if (hidden) childNode.innerHTML = "- " + childNode.innerText
+        if (hidden && !first) childNode.innerHTML = "\n" + childNode.innerText;
         el.appendChild(childNode);
+        first=false
     })
 }
 
@@ -83,6 +86,9 @@ function displayExp(experinece) {
         clone.querySelector('#city').textContent = experinece.city
         const desclist = clone.querySelector('#desc')
         appendArray(desclist, experinece.desc)
+        // hidden-desc
+        const hiddenDesc = clone.querySelector('#hidden-desc')
+        appendArray(hiddenDesc, experinece.desc, true)
         // appendChild
         expE.appendChild(clone);
     }
@@ -98,9 +104,10 @@ function displayProj(proj) {
         const clone = template.content.cloneNode(true);
         const skilllist = clone.querySelector('#skills-box')
         appendArray(skilllist, proj.label)
+
         const cloneTitleE = clone.querySelector('#title');
         // if link exists in proj, attatch it
-        if ( proj.link ){
+        if ( proj.link ) {
             const aE = document.createElement("a");
             aE.href = proj.link;
             aE.textContent = proj.title;
@@ -108,11 +115,25 @@ function displayProj(proj) {
         } else {
             cloneTitleE.textContent = proj.title
         }
+
+        const cloneDescRightE = clone.querySelector('.desc-right')
+        // if img exists in proj, attach it
+        if ( proj.img ) {
+            const imgE = document.createElement("img");
+            imgE.src = proj.img;
+            imgE.alt = proj.img;
+            cloneDescRightE.appendChild(imgE);
+        }
+
         clone.querySelector('#from').textContent = proj.from
         clone.querySelector('#to').textContent = proj.to
-        const desclist = clone.querySelector('#desc')
 
+        const desclist = clone.querySelector('ul#desc')
         appendArray(desclist, proj.desc)
+
+        // hidden-desc
+        const hiddenDesc = clone.querySelector('#hidden-desc')
+        appendArray(hiddenDesc, proj.desc, true)
         // appendChild
         projE.appendChild(clone);
     }

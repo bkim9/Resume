@@ -48,4 +48,10 @@ article {
     justify-content: space-between;
 }
 
+#description-box span.material-icons {
+    position: absolute;
+}
 
+#description-box span.material-icons+img{
+    width: 10rem;
+}
