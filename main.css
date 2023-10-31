@@ -41,12 +41,15 @@ span.material-icons:hover {
 }
 
 #snackbar {
+    padding:.5rem;
     display: none;
     position: fixed;
     bottom: .3rem;
     right: 50%;
     color: lightblue; 
     font-weight: bold;
+    background-color: rgba(14, 133, 121,1);
+    border-radius: .2rem;
 }
 
 address {

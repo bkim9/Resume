@@ -48,10 +48,24 @@ article {
     justify-content: space-between;
 }
 
+#description-box li {
+    text-decoration: none;
+}
+
 #description-box span.material-icons {
     position: absolute;
 }
 
 #description-box span.material-icons+img{
     height: 6rem;
+    border-radius: .5rem;
 }
+ 
+li a:link {
+    text-decoration: none;
+}
+li a:visited {
+    color: rgb(14, 133, 121);
+    background-color: transparent;
+    text-decoration: none;
+} 
