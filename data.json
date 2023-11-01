@@ -2,7 +2,7 @@
     "skills": [
         "Computer Graphics", "Machine Learning", "Software Engineering", "Computer Security", "Firmware Engineer",
         "C/C++", "Java", "Python", "MATLAB", "System Verilog",
-        "Vulkan", "OpenGL", "Metal", "Powershell", "GPU", "Unity", "Unreal", "Blender",
+        "Vulkan", "OpenGL", "Metal", "Powershell", "GPU", "Unity", "Unreal", "Blender", "The Forge",
         "PyTorch", "TensorFlow", "Google Colab", "AWS Sagemaker", "NLP", "nltk", "spaCy", "LLM", "Transformer", "Attention", "GANs", "CUDA", "OpenCL", "Fine Tuning", "Reinforcement Learning",
         "lldb", "cmake", "unit test", "GoogleTest",
         "Pytest", "Jenkins", "Agile", "SCRUM", "Docker", "System Verilog",
@@ -55,13 +55,13 @@
         {
             "label": [ "" ],
             "title": "Displaced BVH",
-            "link":  "./colab",
+            "link":  "https://bkim9.github.io/Resume/colab",
             "from":  "Oct.2023",
             "to":    "Nov.2023",
             "language": "C++",
             "desc": [
-                "",
-                "",
+                "Optimization on Collision using GJK method",
+                "TF renderer ",
                 ""
             ]
         },
@@ -79,9 +79,9 @@
             ]
         },
         {
-            "label": [ "Computer Graphics" , "C/C++", "Multithread"],
+            "label": [ "Computer Graphics" , "C/C++", "Multithread", "The Forge"],
             "title": "Particle System with subdivision",
-            "img" :  "./images/gpu_render.jpg",
+            "img" :  "./images/gpu_render_small.jpg",
             "from":  "Aug.2023",
             "to"  :  "Sep.2023",
             "language": "C++",
