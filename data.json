@@ -94,6 +94,7 @@
         {
             "label": [ "Computer Graphics" , "C/C++", "Multithread", "lldb"],
             "title": "Ray Tracing and Tone Mapping",
+            "link" : "https://github.com/bkim9/CSE168tonemapping.git",
             "img" :  "./images/tonemapping.png",
             "from": "Apr.2023",
             "to": "Jul.2023",
