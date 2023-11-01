@@ -3,7 +3,7 @@
         "Computer Graphics", "Machine Learning", "Software Engineering", "Computer Security", "Firmware Engineer",
         "C/C++", "Java", "Python", "MATLAB", "System Verilog",
         "Vulkan", "OpenGL", "Metal", "Powershell", "GPU", "Unity", "Unreal", "Blender",
-        "PyTorch", "TensorFlow", "Google Colab", "AWS Sagemaker", "NLP", "nltk", "spaCy", "LLM", "Transformer", "Attention", "GANs", "CUDA", "OpenCL", 
+        "PyTorch", "TensorFlow", "Google Colab", "AWS Sagemaker", "NLP", "nltk", "spaCy", "LLM", "Transformer", "Attention", "GANs", "CUDA", "OpenCL", "Fine Tuning", "Reinforcement Learning",
         "lldb", "cmake", "unit test", "GoogleTest",
         "Pytest", "Jenkins", "Agile", "SCRUM", "Docker", "System Verilog",
         "Flutter", "iOS", "SwiftUI", "VisionOS", "ARKit",
@@ -52,6 +52,19 @@
         }
     ],
     "projects" : [
+        {
+            "label": [ "" ],
+            "title": "Displaced BVH",
+            "link":  "./colab",
+            "from":  "Oct.2023",
+            "to":    "Nov.2023",
+            "language": "C++",
+            "desc": [
+                "",
+                "",
+                ""
+            ]
+        },
         {
             "label": [ "Machine Learning" , "Python", "PyTorch", "TensorFlow", "MxNet", "d2l" ],
             "title": "Dive into Deep Learning",
