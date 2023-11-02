@@ -68,7 +68,7 @@
         {
             "label": [ "Machine Learning" , "Python", "PyTorch", "TensorFlow", "MxNet", "d2l" ],
             "title": "Dive into Deep Learning",
-            "link":  "./colab",
+            "link":  "https://github.com/bkim9/Resume/tree/main/colab",
             "from":  "Jul.2023",
             "to":    "Oct.2023",
             "language": "Python",
@@ -164,6 +164,20 @@
                 "<b>OpenGL</b> Physics based cloth simulation",
                 "<b>Dear ImGui</b> for user interface to control air and other parameters",
                 "Used <b>tasks</b> for devOps"
+            ]
+        },
+        {
+            "label": [ "Computer Graphics" , "C++", "Dear ImGui"],
+            "title": "Catmull Clark Subdivision",
+            "link": "https://github.com/bkim9/CatmullClarkSubDivision.git",
+            "img" :  "./images/basic_subdiv.png",
+            "from": "Jul.2022",
+            "to": "Aug.2022",
+            "language": "C++",
+            "desc": [
+                "<b>OpenGL</b> subdivision program using half-edge structure",
+                "lldb to debug the mesh components",
+                "Planning to add ray tracing support for reality"
             ]
         },
         {
