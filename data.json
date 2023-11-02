@@ -3,7 +3,7 @@
         "Computer Graphics", "Machine Learning", "Software Engineering", "Computer Security", "Firmware Engineer",
         "C/C++", "Java", "Python", "MATLAB", "System Verilog",
         "Vulkan", "OpenGL", "Metal", "Powershell", "GPU", "Unity", "Unreal", "Blender", "The Forge",
-        "PyTorch", "TensorFlow", "Google Colab", "AWS Sagemaker", "NLP", "nltk", "spaCy", "LLM", "Transformer", "Attention", "GANs", "CUDA", "OpenCL", "Fine Tuning", "Reinforcement Learning",
+        "PyTorch", "TensorFlow", "Google Colab", "AWS Sagemaker", "NLP", "nltk", "spaCy", "LLM", "Transformer", "Attention", "GANs", "CUDA", "OpenCL", "Fine Tuning", "Reinforcement Learning", "Q-Learing",
         "lldb", "cmake", "unit test", "GoogleTest",
         "Pytest", "Jenkins", "Agile", "SCRUM", "Docker", "System Verilog",
         "Flutter", "iOS", "SwiftUI", "VisionOS", "ARKit",
@@ -167,7 +167,7 @@
             ]
         },
         {
-            "label": [ "Computer Graphics" , "C++", "Dear ImGui"],
+            "label": [ "Computer Graphics" , "C++", "OpenGL"],
             "title": "Catmull Clark Subdivision",
             "link": "https://github.com/bkim9/CatmullClarkSubDivision.git",
             "img" :  "./images/basic_subdiv.png",
@@ -177,7 +177,7 @@
             "desc": [
                 "<b>OpenGL</b> subdivision program using half-edge structure",
                 "lldb to debug the mesh components",
-                "Planning to add ray tracing support for reality"
+                "Planning to compare with OpenSubdiv [Pixar 2012]"
             ]
         },
         {
