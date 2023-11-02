@@ -24,14 +24,14 @@
             ]
         },
         {
-            "label": [ "Deep Learning", "Machine Learning", "TensorFlow", "PyTorch", "Computer Vision"],
+            "label": [ "Deep Learning", "Machine Learning", "TensorFlow", "PyTorch", "Computer Vision", "Image Augmentation"],
             "title": "Machine Learning Engineer Intern",
             "company": "AT Solution",
             "from": "Apr.2022",
             "to": "Jan.2023",
             "city": "Busan, South Korea",
             "desc": [
-                "<b>TensorFlow</b> for data engineering at a commercial industry field",
+                "<b>TensorFlowed</b> for data engineering at a commercial industry field",
                 "Generated a model to detect a pattern recognition in an image dataset",
                 "Served as an exhibitor for the company’s booth at CES 2023 in Las Vegas and Collaborate with the team members to convince the potential customer of the products"
             ]

@@ -36,6 +36,7 @@ span {
 }
 
 span.material-icons:hover {
+    cursor: pointer;
     color:gray;
 }
 
