@@ -1,5 +1,20 @@
 // click to copy function 
 // req: snackbar at the bottom
+export function addClickBlock() {
+  // click to copy
+  const blockIconEs = document.querySelectorAll('.material-symbols-outlined[label=close]');
+  blockIconEs.forEach(blockIconE => {
+    blockIconE.addEventListener("click", () => { 
+        const theArticle = blockIconE.parentElement.parentElement
+        theArticle.parentElement.removeChild(theArticle)
+        theArticle.blocked = true
+    });
+  })
+}
+
+
+// click to copy function 
+// req: snackbar at the bottom
 export function addClickCopy() {
   // click to copy
   const copyIconEs = document.querySelectorAll('.material-icons[label="copy"]');

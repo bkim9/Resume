@@ -1,5 +1,5 @@
 // Created by Beomsu Kim on Oct.1st 2023
-import {addClickCopy} from "./clicktocopy.js"
+import {addClickCopy, addClickBlock} from "./clicktocopy.js"
 
 function clearItems(parent) {
     while (parent.hasChildNodes())
@@ -59,6 +59,8 @@ function appendSkillButtons(el, arr) {
 }
 
 function checkFit(item) {
+    // if item is blocked, return false
+    if (item.blocked) return false;
     let fit = false;
     const skillEs = document.querySelectorAll('input[type=checkbox]+label')
 
@@ -126,12 +128,12 @@ function displayProj(proj) {
         }
 
         clone.querySelector('#from').textContent = proj.from
-        clone.querySelector('#to').textContent = proj.to
+        clone.querySelector('#to')  .textContent = proj.to
 
         const desclist = clone.querySelector('ul#desc')
         appendArray(desclist, proj.desc)
 
-        // hidden-desc
+        // hidden-desc for clipboard
         const hiddenDesc = clone.querySelector('#hidden-desc')
         appendArray(hiddenDesc, proj.desc, true)
         // appendChild
@@ -169,6 +171,7 @@ function display_items(data) {
     exp.forEach(displayExp);
     projs.forEach(displayProj);
     addClickCopy();
+    addClickBlock();
 }
 
 // data->localStorage

@@ -1,3 +1,7 @@
+#title + .material-icons, .material-symbols-outlined[label=close]{
+    margin-left: .5rem;
+}
+
 .duration-box {
     display: flex;
     justify-content: right;

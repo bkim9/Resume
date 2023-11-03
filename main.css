@@ -35,9 +35,13 @@ span {
     opacity: .4;
 }
 
-span.material-icons:hover {
+span.material-icons:hover, span.material-symbols-outlined:hover {
     cursor: pointer;
     color:gray;
+    background-color: #ccc;
+    border-radius: 2rem;
+    padding:.2rem;
+    /* font-size: small; */
 }
 
 #snackbar {
