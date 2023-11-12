@@ -124,7 +124,7 @@
             "to": "May.2023",
             "language": "C++",
             "desc": [
-                "Given the data set of Shakespearean sonnets and the first 40 characters of hint, predicted what will be after the seed",
+                "Given the data set of Shakespearean sonnets and the first 40 characters of hint, generated what will be following the seed",
                 "Generated sequences using <b>attention</b> model to solve the natural language processing problem",
                 "Used d2l module on <b>PyTorch</b>, following the Dive into Deep learning tutorial"
             ]
