@@ -11,6 +11,12 @@
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" />
     <script src="./main.js" type="module"></script>
+    <script
+    src="https://cdnjs.cloudflare.com/ajax/libs/gl-matrix/2.8.1/gl-matrix-min.js"
+    integrity="sha512-zhHQR0/H5SEBL3Wn6yYSaTTZej12z0hVZKOv3TwCUXT1z5qeqGcXJLLrbERYRScEDDpYIJhPC1fk31gqR783iQ=="
+    crossorigin="anonymous"
+    defer></script>
+  <script src="webgl-demo.js" type="module"></script>
     <template id="experience-template">
       <article>
         
@@ -120,8 +126,17 @@
           content_copy
         </span>
     </header>
+
     <!-- Main contains rest of page components (sidebar, posts) -->
     <main>
+      
+      <!-- webgl demo -->
+      <div id="canvases">
+        <canvas id="glcanvas0"></canvas>
+        <canvas id="glcanvas1"></canvas>
+        <canvas id="glcanvas2"></canvas>
+      </div>
+        
       <!-- Address -->
       <address class="contacts">
         <div class="copy-row-box">

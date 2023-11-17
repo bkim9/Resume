@@ -25,6 +25,15 @@ main {
     padding: 2rem;
 }
 
+div#canvases {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+canvas#glcanvas0 {
+    width: 10rem;
+}
+
 .copy-row-box { 
     display: flex;
     flex-direction: row;
