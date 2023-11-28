@@ -68,6 +68,7 @@
         {
             "label": [ "Vulkan", "Renderdoc", "Lua" ],
             "title": "Tonemap Vulkan",
+            "img" :  "./images/vulkan_tonemap.jpg",
             "link":  "https://bkim9.github.io/Resume/colab",
             "from":  "Nov.2023",
             "to":    "In Progress",
