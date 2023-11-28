@@ -2,7 +2,7 @@
     "skills": [
         "Computer Graphics", "Machine Learning", "Software Engineering", "Computer Security", "Firmware Engineer",
         "C/C++", "Java", "Python", "MATLAB", "System Verilog",
-        "Vulkan", "OpenGL", "Metal", "Powershell", "GPU", "Unity", "Unreal", "Blender", "The Forge", "WebGL", "Renderdoc", "Lua",
+        "Vulkan", "OpenGL", "Metal", "Powershell", "GPU", "Unity", "Unreal", "Blender", "The Forge", "WebGL", "RenderDoc", "Lua",  "Dear ImGui",
         "PyTorch", "scikit-learn", "TensorFlow", "Google Colab", "AWS Sagemaker", "NLP", "nltk", "spaCy", "LLM", "Transformer", "Attention", "GANs", "CUDA", "OpenCL", "Fine Tuning", "Reinforcement Learning", "Q-Learing", "Caffe", "YOLO",
         "lldb", "cmake", "unit test", "GoogleTest",
         "Pytest", "Jenkins", "Agile", "SCRUM", "Docker", "System Verilog",
@@ -66,17 +66,17 @@
             ]
         },
         {
-            "label": [ "Vulkan", "Renderdoc", "Lua" ],
+            "label": [ "Vulkan", "RenderDoc", "Lua" ],
             "title": "Tonemap Vulkan",
             "img" :  "./images/vulkan_tonemap.png",
-            "link":  "https://bkim9.github.io/Resume/colab",
+            "link":  "https://github.com/bkim9/VulkanTutorial",
             "from":  "Nov.2023",
-            "to":    "In Progress",
+            "to":    "IP",
             "language": "C++",
             "desc": [
-                "Vulkan API to interactive tonemapping",
-                "Using Renderdoc and Dear ImGui to debug",
-                "Planning to embed lua to test program"
+                "<b>Tonemapping</b> integrated with <b>Vulkan API</b> to",
+                "Integrating <b>Dear ImGui</b>, and <b>Lua</b> to debug and test",
+                "Planning to <b>RenderDoc</b> for shader debugging"
             ]
         },
         {
