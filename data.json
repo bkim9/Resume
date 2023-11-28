@@ -2,7 +2,7 @@
     "skills": [
         "Computer Graphics", "Machine Learning", "Software Engineering", "Computer Security", "Firmware Engineer",
         "C/C++", "Java", "Python", "MATLAB", "System Verilog",
-        "Vulkan", "OpenGL", "Metal", "Powershell", "GPU", "Unity", "Unreal", "Blender", "The Forge", "WebGL", "Renderdoc",
+        "Vulkan", "OpenGL", "Metal", "Powershell", "GPU", "Unity", "Unreal", "Blender", "The Forge", "WebGL", "Renderdoc", "Lua",
         "PyTorch", "scikit-learn", "TensorFlow", "Google Colab", "AWS Sagemaker", "NLP", "nltk", "spaCy", "LLM", "Transformer", "Attention", "GANs", "CUDA", "OpenCL", "Fine Tuning", "Reinforcement Learning", "Q-Learing", "Caffe", "YOLO",
         "lldb", "cmake", "unit test", "GoogleTest",
         "Pytest", "Jenkins", "Agile", "SCRUM", "Docker", "System Verilog",
@@ -63,6 +63,19 @@
                 "Optimization on Collision using GJK method",
                 "TF renderer ",
                 ""
+            ]
+        },
+        {
+            "label": [ "Vulkan", "Renderdoc", "Lua" ],
+            "title": "Tonemap Vulkan",
+            "link":  "https://bkim9.github.io/Resume/colab",
+            "from":  "Nov.2023",
+            "to":    "In Progress",
+            "language": "C++",
+            "desc": [
+                "Vulkan API to interactive tonemapping",
+                "Using Renderdoc and Dear ImGui to debug",
+                "Planning to embed lua to test program"
             ]
         },
         {
