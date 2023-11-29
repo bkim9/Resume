@@ -66,7 +66,7 @@
             ]
         },
         {
-            "label": [ "Vulkan", "RenderDoc", "Lua" ],
+            "label": [ "Vulkan", "RenderDoc", "Lua", "Dear ImGui"],
             "title": "Tonemap Vulkan",
             "img" :  "./images/vulkan_tonemap.png",
             "link":  "https://github.com/bkim9/VulkanTutorial",

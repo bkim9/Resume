@@ -180,4 +180,11 @@ input[type=checkbox]:checked+label {
     .material-icons {
        visibility: hidden;
     }
+
+    .material-symbols-outlined {
+        visibility: hidden;
+    }
+    summary {
+        display: none;
+    }
  }
