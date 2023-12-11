@@ -7,7 +7,7 @@
         "lldb", "cmake", "unit test", "GoogleTest",
         "Pytest", "Jenkins", "Agile", "SCRUM", "Docker", "System Verilog",
         "Flutter", "iOS", "SwiftUI", "VisionOS", "ARKit",
-        "Javascript", "TypeScript", "React", "HTML", "CSS", "puppeteer"
+        "Javascript", "TypeScript", "React", "HTML", "CSS", "puppeteer", "Firebase" 
     ],
     "experience" : [
         {
