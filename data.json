@@ -13,12 +13,12 @@
         {
             "label": [ "HTML", "React", "ComputerVision", "Machine Learning", "Deep Learning", "GANs", "PyTorch", "Software Engineering"],
             "title": "Software Engineer",
-            "company": "MITAA",
+            "company": "Mitaa",
             "from": "Sep.2023",
             "to": "Now",
             "city": "Los Angeles",
             "desc": [
-                "Constructing company’s  website for memory clinic using <b>React Native</b>",
+                "Constructing a <a href=\"https://bkim9.github.io/Mitaa\">website</a> for memory clinic using <b>React Native</b>",
                 "Managing patient dataset to use SSD to analyze medical images to catch Alzheimer's disease",
                 "Building neurological knowledge through working with the physician"
             ]
