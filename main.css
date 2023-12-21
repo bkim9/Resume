@@ -133,6 +133,19 @@ input[type=checkbox]:checked+label {
 
 /* wide screen */
 @media screen and (min-width: 1400px) {
+    body {
+        display: flex;
+        justify-content: space-between;
+    }
+    header {
+        height: 100vh;
+        position: fixed;
+    }
+    main {
+        padding-left: 18rem;
+        width: auto;
+        right: 0;
+    }
 }
 
 /* media print */
