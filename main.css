@@ -163,7 +163,6 @@ input[type=checkbox]:checked+label {
         padding: .5rem;
     }
     
-
     /* address */
     address * {
         color:rgb(35, 127, 97);
