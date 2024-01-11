@@ -29,6 +29,7 @@ article.food .edit-button {
     width: 2rem;
     border-radius: 1rem;
     border: none;
+    background-color: lightgoldenrodyellow;
 }
 
 article.food > * {
