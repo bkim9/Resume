@@ -1,3 +1,6 @@
+html {
+    font-family: Arial, Helvetica, sans-serif;
+}
 body {
     display: flex;
     flex-direction: column;
@@ -6,23 +9,34 @@ body {
 #foods {
     display: flex;
     flex-direction: column;
+    width: 84rem;
     border-radius: 1rem;
-    width: 80rem;
     background-color: antiquewhite;
 }
 
 article.food {
+    padding:.5rem;
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
+    border-width: solid 1px black;
+}
+
+article.food .edit-button {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 2rem;
+    border-radius: 1rem;
+    border: none;
 }
 
 article.food > * {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    width: 20rem;
+    width: 14rem;
     height: 2rem;
-    padding: .4rem;
     text-align: center;
 }
+
