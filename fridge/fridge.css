@@ -1,0 +1,28 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#foods {
+    display: flex;
+    flex-direction: column;
+    border-radius: 1rem;
+    width: 80rem;
+    background-color: antiquewhite;
+}
+
+article.food {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+article.food > * {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 20rem;
+    height: 2rem;
+    padding: .4rem;
+    text-align: center;
+}

@@ -5,7 +5,9 @@
 <html lang="en">
     <head>
         <template>
-            <article>
+            <article class="food">
+                <time datetime="2023-08-01 09:53PM" id="updatetime">2023-08-01 09:53 PM</time>
+                <span class="food-location">1&1 lower fridge</span>
                 <span class="food-name">
                     Ranch
                 </span>
@@ -15,20 +17,49 @@
                 <time datetime="2023-08-01" id="from">Aug 01 2023</time>
                 <time datetime="2024-05-12" id="to">May 12 2024</time>
             </article>
-            <link rel="stylesheet" href="fridge.css">
-            <script src="./main.js" type="module"></script>
         </template>
+        <link rel="stylesheet" href="fridge.css">
+        <script src="./main.js" type="module"></script>
     </head>
     <body>
-            <article>
+        <h1>Beomsu's Fridge</h1>
+        <div id="foods">
+            <article class="food">
+                <time datetime="2023-08-01 09:53PM" id="updatetime">2023-08-01 09:53 PM</time>
+                <span class="food-location">1&1 lower fridge</span>
                 <span class="food-name">
                     Ranch
                 </span>
                 <span class="food-amount">
                     40%
                 </span>
+                <time datetime="2024-01-03" id="from">Jan 03 2024</time>
+                <time datetime="2024-05-12" id="to">May 12 2024</time>
+            </article>
+            <article class="food">
+                <time datetime="2024-01-10 10:02 PM" id="updatetime">2024-01-10 10:02 PM</time>
+                <span class="food-location">1&2 upper fridge</span>
+                <span class="food-name">
+                    곤드레 나물밥
+                </span>
+                <span class="food-amount">
+                    50%
+                </span>
+                <time datetime="2024-01-03" id="from">Jan 03 2023</time>
+                <time datetime="2024-03-11" id="to">Mar 11 2024</time>
+            </article>
+            <article class="food">
+                <time datetime="2024-01-10 10:00 PM" id="updatetime">2024-01-10 10:00 PM</time>
+                <span class="food-location">2&1 upper fridge</span>
+                <span class="food-name">
+                    Edamame
+                </span>
+                <span class="food-amount">
+                    100%
+                </span>
                 <time datetime="2023-08-01" id="from">Aug 01 2023</time>
                 <time datetime="2024-05-12" id="to">May 12 2024</time>
             </article>
+        </div>
     </body>    
 </html>
