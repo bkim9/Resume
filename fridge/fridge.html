@@ -20,7 +20,9 @@
             </article>
         </template>
         <link rel="stylesheet" href="fridge.css">
+        <link rel="stylesheet" href="conv-dialog.css">
         <script src="./main.js" type="module"></script>
+        <script src="./conv-dialog.js" type="module"></script>
     </head>
     <body>
         <h1>Beomsu's Fridge</h1>
@@ -66,5 +68,27 @@
                 <button class="edit-button">edit</button>
             </article>
         </div>
+
+        <dialog id="conv-dialog">
+            <button id="conv-close-button">x</button>
+            <div id="dialog-header">
+                <h3>Add Item</h3>
+            </div>
+            <form id="contact-form" action="/submit-p-form" method="dialog">
+                <!-- <select class="location">
+                    <option value="default">  Location</option>
+                    <option>Los Angeles</option>
+                    <option>UCLA</option>
+                </select> -->
+                <input type="text" id="name" name="name" placeholder="Name" required>
+                <input type="text" id="location" name="location" placeholder="Location">
+                <input type="text" id="quantity" name="quantity" placeholder="Quantity" >
+                <span>From: <input type="date" id="from" name="from" placeholder="From">To: <input type="date" id="to" name="to" placeholder="To"></span>
+                <textarea id="story" name="story" rows="5" cols="33" placeholder="Message" autofocus></textarea>
+                <input id="conv-submit-button" type="submit" value="Submit">
+            </form>
+        </dialog>
+          
+        <button id="conv-button">+</button>
     </body>    
 </html>
