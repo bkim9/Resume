@@ -1,7 +1,6 @@
 // Import the functions you need from the SDKs you need
 import { initializeApp } from "firebase/app";
 import { getFirestore } from "firebase/firestore";
-import { getAuth, signInWithEmailAndPassword, onAuthStateChanged } from 'firebase/auth';
 import { collection, addDoc, getDoc} from "firebase/firestore"; 
 
 // Your web app's Firebase configuration
@@ -18,27 +17,6 @@ const firebaseConfig = {
 // Initialize Firebase
 const app = initializeApp(firebaseConfig);
 const db = getFirestore(app);
-const auth = getAuth(app);
-onAuthStateChanged(auth, user => {
-   /* check status */
-    alert('check status') ;
-});
-
-function signinInfo(data) {
-      console.log(data);
-      signInWithEmailAndPassword(auth, data['user-email'], data.password)
-      .then((userCredential) => {
-          // Signed in
-          const user = userCredential.user;
-          alert('Hello Beomsu Nice!');
-          console.log(user);
-      })
-      .catch((error) => {
-          const errorCode = error.code;
-          const errorMessage = error.message;
-          alert(errorMessage + 'error code: ' +  errorCode);
-      })
-}
 
 async function submitInfo(object) {
   try {
@@ -62,25 +40,12 @@ function initSubmit() {
     });
 
     formElem.addEventListener("formdata", (e) => {
-      const date = new Date().toLocaleString("en-US");
       const data = e.formData;
-      let locEl   = formElem.querySelector('select.location');
-      let retunEl = formElem.querySelector('select.returning');
-      let loc = '';
-      if ( locEl ) loc = locEl.value;
-      let retun = '';
-      if ( retunEl ) retun = retunEl.value;
-      
-      data.append("location", loc);
-      data.append("new-patient", retun);
+      const date = new Date().toLocaleString("en-US");
       data.append("updated-time", date);
       var object = {};
       data.forEach((value, key) => object[key] = value);
-      if(document.querySelector('#auth-form')) {
-        signinInfo(object);
-      } else {
-        submitInfo(object);
-      }
+      submitInfo(object);
     });
   });
 }
