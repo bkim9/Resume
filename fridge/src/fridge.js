@@ -14,10 +14,10 @@ const firebaseConfig = {
 
 const app = initializeApp(firebaseConfig);
 const db  = getFirestore(app);
-const collection = 'users';
+const coll = 'users';
 
 async function deleteItem(item, field) {
-    const itemRef = doc(db, collection, field);
+    // const itemRef = doc(db, coll, field);
 
     // Remove the 'capital' field from the document
     await updateDoc(item, {
@@ -26,7 +26,7 @@ async function deleteItem(item, field) {
 }
 
 async function updateItem(item, field, value) {
-    const itemRef = doc(db, collection, field);
+    // const itemRef = doc(db, coll, field);
 
     // Remove the 'capital' field from the document
     await updateDoc(item, {
@@ -58,7 +58,7 @@ function display_items(data) {
 }
 
 async function init() {
-    let data = await getDocs(collection(db, "users"));
+    let data = await getDocs(collection(db, coll));
     display_items(data);
 }
 
