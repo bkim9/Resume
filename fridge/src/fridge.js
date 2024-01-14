@@ -26,7 +26,7 @@ async function deleteItem(item, field) {
 }
 
 async function updateItem(item, field, value) {
-    // const itemRef = doc(db, coll, field);
+    // const itemRef = doc(db, coll, field)
 
     // Remove the 'capital' field from the document
     await updateDoc(item, {
