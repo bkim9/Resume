@@ -1,6 +1,7 @@
 import { initializeApp } from "firebase/app";
 import { getFirestore } from "firebase/firestore";
 import { collection, getDocs} from "firebase/firestore"; 
+import { doc, updateDoc, deleteField } from "firebase/firestore";
 
 const firebaseConfig = {
     apiKey: "AIzaSyAcM0dhHYeQ4ANpfNrhi_VLy8oi4Fvv5mA",
@@ -13,14 +14,25 @@ const firebaseConfig = {
 
 const app = initializeApp(firebaseConfig);
 const db  = getFirestore(app);
+const collection = 'users';
 
-// function appendLi(parent, itemData, check, text) {
-//     const liClone = document.querySelector('#list-element').content.cloneNode(true);
-//     if ( itemData[check] ) {
-//         liClone.querySelector('li').textContent = text;
-//         parent.appendChild(liClone);
-//     }
-// }
+async function deleteItem(item, field) {
+    const itemRef = doc(db, collection, field);
+
+    // Remove the 'capital' field from the document
+    await updateDoc(item, {
+        key: deleteField()
+    });
+}
+
+async function updateItem(item, field, value) {
+    const itemRef = doc(db, collection, field);
+
+    // Remove the 'capital' field from the document
+    await updateDoc(item, {
+        field: deleteField()
+    });
+}
 
 function displayItem(item) {
     const itemData = item.data()
