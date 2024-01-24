@@ -1,24 +1,38 @@
-function init() {
-    const dialogE = document.querySelector("#conv-dialog");
-    // open dialog
-    const convButtonE = document.querySelector("#conv-button");
-    convButtonE.addEventListener("click", ()=>{
+export { addDialog }
+
+let dialogEs;
+
+function addDialog( dialogE ) {
+    const convOpenButtonE = dialogE.nextElementSibling;
+    const convSubmitButtonE = dialogE.querySelector("#conv-submit-button");
+    const convCloseButtonE = dialogE.querySelector("#conv-close-button");
+    // open
+    convOpenButtonE.addEventListener("click", ()=>{
         dialogE.show();
-        convButtonE.style.display = "none"
+        dialogE.style.display = "flex";
+        convOpenButtonE.style.display = "none";
     }); 
 
-    // submit dialog
-    const convSubmitButtonE = document.querySelector("#conv-submit-button")
+    // submit
     convSubmitButtonE.addEventListener("click", ()=>{
         dialogE.close();
+        dialogE.style.display = "none";
+        convOpenButtonE.style.display = "flex";
     })
 
-    // close dialog
-    const convCloseButtonE = document.querySelector("#conv-close-button");
+    // close
     convCloseButtonE.addEventListener("click", ()=>{
         dialogE.close();
-        convButtonE.style.display = "flex"
+        dialogE.style.display = "none";
+        convOpenButtonE.style.display = "flex";
     })
+}
+
+function init() {
+    dialogEs = document.querySelectorAll("dialog");
+    for (const dialogE of dialogEs){
+        addDialog(dialogE);
+    }
 }
 
 window.addEventListener("DOMContentLoaded", init);
