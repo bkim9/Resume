@@ -40,7 +40,7 @@
     right: 3rem;
     border: none;
     background-color: rgb(124, 148, 86);
-    color: white;
+    color: rgb(255, 0, 0);
     font-size: 2rem;
     font-weight: 100;
 }
@@ -137,4 +137,16 @@
     color: white;
     font-size: xx-large;
     font-weight: bold;
+}
+
+/* media query */
+
+@media screen and (max-width: 1000px) {
+    #abouts {
+        width:40rem;
+        flex-direction: column;
+    }
+    #about-left {
+        width: 40rem;
+    }
 }
