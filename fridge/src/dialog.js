@@ -4,8 +4,8 @@ let dialogEs;
 
 function addDialog( dialogE ) {
     const dialogOpenButtonE = dialogE.nextElementSibling;
-    const dialogSubmitButtonE = dialogE.querySelector("#dialog-submit-button");
-    const dialogCloseButtonE = dialogE.querySelector("#dialog-close-button");
+    const dialogSubmitButtonE = dialogE.querySelector(".dialog-submit-button");
+    const dialogCloseButtonE = dialogE.querySelector(".dialog-close-button");
     // open
     dialogOpenButtonE.addEventListener("click", ()=>{
         dialogE.show();
@@ -18,14 +18,14 @@ function addDialog( dialogE ) {
         dialogE.close();
         dialogE.style.display = "none";
         dialogOpenButtonE.style.display = "flex";
-    })
+    });
 
     // close
     dialogCloseButtonE.addEventListener("click", ()=>{
         dialogE.close();
         dialogE.style.display = "none";
         dialogOpenButtonE.style.display = "flex";
-    })
+    });
 }
 
 function init() {

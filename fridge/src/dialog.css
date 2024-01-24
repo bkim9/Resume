@@ -14,9 +14,9 @@
     align-items: center;
 }
 
-#dialog-close-button {
+.dialog-close-button {
     cursor: pointer;
-    position: absolute ;
+    position: absolute;
     width: 70px;
     height: 70px;
     border-radius: 50px;
@@ -29,7 +29,16 @@
     font-weight: 100;
 }
 
-#dialog-header{
+#contact-form > .dialog-submit-button {
+    cursor:pointer;
+    background-color: rgb(124, 148, 86);
+    color: white;
+    border-radius: .4rem;
+    font-size: 2rem;
+    border:none;
+} 
+
+.dialog-header{
     background-color: rgb(124, 148, 86);
     width: 100%;
     height: 15%;
@@ -39,7 +48,7 @@
     align-items: center;
     border-radius: 1rem 1rem 0 0;
     color: white;
-    font-size: 2.5rem;
+    font-size: 2rem;
 }
 
 #contact-form {
@@ -92,14 +101,7 @@
 }
 
 
-#dialog-submit-button {
-    cursor:pointer;
-    background-color: rgb(124, 148, 86);
-    color: white;
-    border-radius: .4rem;
-    font-size: 2rem;
-    border:none;
-} 
+
 
 
 #contact-warning{

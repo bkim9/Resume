@@ -50,7 +50,9 @@ function displayItem(item) {
         clone.querySelector('.from').textContent = itemData.from;
         clone.querySelector('.to').textContent = itemData.to;
         // clone.querySelector('.story').textContent = itemData.story;
-        addDialog(clone.querySelector('dialog'));
+        const dialogE = clone.querySelector('dialog');
+        dialogE.style.display = 'none';
+        addDialog( dialogE);
         foodsE.appendChild(clone);
     }
 }

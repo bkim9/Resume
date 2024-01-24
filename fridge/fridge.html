@@ -12,9 +12,9 @@
                 <span class="food-amount">40%</span>
                 <time datetime="2023-08-01" class="from">Aug 01 2023</time>
                 <time datetime="2024-05-12" class="to">May 12 2024</time>
-                <!-- <dialog id="edit-dialog">
-                    <button id="edit-close-button">x</button>
-                    <div id="edit-dialog-header">
+                <dialog id="edit-dialog">
+                    <button class="dialog-close-button">x</button>
+                    <div id="edit-dialog-header" class="dialog-header">
                         <h3>Edit Item</h3>
                     </div>
                     <form id="contact-form" action="/submit-p-form" method="dialog">
@@ -23,10 +23,10 @@
                         <input type="text" id="quantity" name="quantity" placeholder="Quantity" >
                         <span>From: <input type="date" id="from" name="from" placeholder="From">To: <input type="date" id="to" name="to" placeholder="To"></span>
                         <textarea id="story" name="story" rows="5" cols="33" placeholder="Message" autofocus></textarea>
-                        <input id="dialog-submit-button" type="submit" value="Submit">
+                        <input class="dialog-submit-button" type="submit" value="Submit">
                     </form>
                     <button class="delte-button">🗑</button>
-                </dialog> -->
+                </dialog>
                 <button class="edit-button">✎</button>
             </article>
         </template>
@@ -43,8 +43,8 @@
 
 
         <dialog id="add-dialog">
-            <button id="dialog-close-button">x</button>
-            <div id="dialog-header">
+            <button class="dialog-close-button">x</button>
+            <div class="dialog-header">
                 <h3>Add Item</h3>
             </div>
             <form id="contact-form" action="/submit-p-form" method="dialog">
@@ -58,7 +58,7 @@
                 <input type="text" id="quantity" name="quantity" placeholder="Quantity" >
                 <span>From: <input type="date" id="from" name="from" placeholder="From">To: <input type="date" id="to" name="to" placeholder="To"></span>
                 <textarea id="story" name="story" rows="5" cols="33" placeholder="Message" autofocus></textarea>
-                <input id="dialog-submit-button" type="submit" value="Submit">
+                <input class="dialog-submit-button" type="submit" value="Submit">
             </form>
         </dialog>
           
