@@ -12,32 +12,27 @@
                 <span class="food-amount">40%</span>
                 <time datetime="2023-08-01" class="from">Aug 01 2023</time>
                 <time datetime="2024-05-12" class="to">May 12 2024</time>
-                <dialog id="edit-dialog">
+                <!-- <dialog id="edit-dialog">
                     <button id="edit-close-button">x</button>
                     <div id="edit-dialog-header">
                         <h3>Edit Item</h3>
                     </div>
                     <form id="contact-form" action="/submit-p-form" method="dialog">
-                        <!-- <select class="location">
-                            <option value="default">  Location</option>
-                            <option>Los Angeles</option>
-                            <option>UCLA</option>
-                        </select> -->
                         <input type="text" id="name" name="name" placeholder="Name" required>
                         <input type="text" id="location" name="location" placeholder="Location">
                         <input type="text" id="quantity" name="quantity" placeholder="Quantity" >
                         <span>From: <input type="date" id="from" name="from" placeholder="From">To: <input type="date" id="to" name="to" placeholder="To"></span>
                         <textarea id="story" name="story" rows="5" cols="33" placeholder="Message" autofocus></textarea>
-                        <input id="conv-submit-button" type="submit" value="Submit">
+                        <input id="dialog-submit-button" type="submit" value="Submit">
                     </form>
-                    <button id="button-delete-item">🗑</button>
-                </dialog>
+                    <button class="delte-button">🗑</button>
+                </dialog> -->
                 <button class="edit-button">✎</button>
             </article>
         </template>
-        <link rel="stylesheet" href="fridge.css">
-        <link rel="stylesheet" href="conv-dialog.css">
-        <script src="./src/conv-dialog.js" type="module"></script>
+        <link rel="stylesheet" href="./src/fridge.css">
+        <link rel="stylesheet" href="./src/dialog.css">
+        <script src="./src/dialog.js" type="module"></script>
         <script src="./dist/bundle.js" type="module"></script>
     </head>
     <body>
@@ -47,9 +42,9 @@
         </div>
 
 
-        <dialog id="conv-dialog">
-            <button id="conv-close-button">x</button>
-            <div id="conv-dialog-header">
+        <dialog id="add-dialog">
+            <button id="dialog-close-button">x</button>
+            <div id="dialog-header">
                 <h3>Add Item</h3>
             </div>
             <form id="contact-form" action="/submit-p-form" method="dialog">
@@ -63,10 +58,10 @@
                 <input type="text" id="quantity" name="quantity" placeholder="Quantity" >
                 <span>From: <input type="date" id="from" name="from" placeholder="From">To: <input type="date" id="to" name="to" placeholder="To"></span>
                 <textarea id="story" name="story" rows="5" cols="33" placeholder="Message" autofocus></textarea>
-                <input id="conv-submit-button" type="submit" value="Submit">
+                <input id="dialog-submit-button" type="submit" value="Submit">
             </form>
         </dialog>
           
-        <button id="conv-button">+</button>
+        <button id="dialog-add-open-button" class="dialog-open-button">+</button>
     </body>    
 </html>

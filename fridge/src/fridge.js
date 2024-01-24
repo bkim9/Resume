@@ -2,6 +2,7 @@ import { initializeApp } from "firebase/app";
 import { getFirestore } from "firebase/firestore";
 import { collection, getDocs} from "firebase/firestore"; 
 import { doc, updateDoc, deleteField } from "firebase/firestore";
+import { addDialog } from "./dialog";
 
 const firebaseConfig = {
     apiKey: "AIzaSyAcM0dhHYeQ4ANpfNrhi_VLy8oi4Fvv5mA",
@@ -49,6 +50,7 @@ function displayItem(item) {
         clone.querySelector('.from').textContent = itemData.from;
         clone.querySelector('.to').textContent = itemData.to;
         // clone.querySelector('.story').textContent = itemData.story;
+        addDialog(clone.querySelector('dialog'));
         foodsE.appendChild(clone);
     }
 }
