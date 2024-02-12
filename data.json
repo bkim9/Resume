@@ -7,9 +7,22 @@
         "lldb", "cmake", "unit test", "GoogleTest",
         "Pytest", "Jenkins", "Agile", "SCRUM", "Docker", "System Verilog",
         "Flutter", "iOS", "SwiftUI", "VisionOS", "ARKit",
-        "Javascript", "TypeScript", "React", "HTML", "CSS", "puppeteer", "Firebase", "Spring"
+        "Javascript", "TypeScript", "React", "HTML", "CSS", "puppeteer", "Firebase", "Spring", "JQuery"
     ],
     "experience" : [
+        {
+            "label": [ "Spring", "Java", "SQL", "MVC", "JQuery", "Deep Learning", "PyTorch"],
+            "title": "Junior Developer",
+            "company": "Solomon America",
+            "from": "Feb.2024",
+            "to": "Now",
+            "city": "Fountain Valley",
+            "desc": [
+                "Manage and develop ui for Hyundai's technical quality management system using Oracle SQL and Spring MVC structure",
+                "Collaborate with the senior member to reconstruct the webapp",
+                "Preparing to participate in a machine learning project with Hyundai Glovis"
+            ]
+        },
         {
             "label": [ "HTML", "React", "ComputerVision", "Machine Learning", "Deep Learning", "GANs", "PyTorch", "Software Engineering"],
             "title": "Software Engineer",
@@ -52,6 +65,20 @@
         }
     ],
     "projects" : [
+        {
+            "label": [ "Vulkan", "Computer Graphics" ],
+            "title": "vktutorial beta version",
+            "img" :  "./images/exhibition5.PNG",
+            "from":  "Jan.2024",
+            "to":    "Feb.2024",
+            "language": "C++",
+            "desc": [
+                "Dynamic Rendering for code simplicity and Interactive camera",
+                "RenderDoc for Debugging",
+                "Abstraction based on https://vkguide.dev"
+            ]
+        },
+
         {
             "label": [ "" ],
             "title": "Displaced BVH",
