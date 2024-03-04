@@ -18,7 +18,7 @@
             "to": "Now",
             "city": "Fountain Valley",
             "desc": [
-                "Managing and developing solution for Hyundai and Kia's technical quality management system using JQuery, Oracle SQL, and Spring MVC structure",
+                "Managing and developing solutions for Hyundai and Kia's technical quality management system using JQuery, Oracle SQL, and Spring MVC structure",
                 "Collaborating with the senior member to reconstruct a webapp version of the solution",
                 "Preparing to participate in a machine learning project with Hyundai Glovis"
             ]
@@ -51,7 +51,7 @@
         },
         {
             "label": [ "Powershell", "SQL", "Computer Security"],
-            "title": "Computer Emergency Response Team Lead",
+            "title": "Computer Emergency Response Team",
             "company": "ROK Marine Corps",
             "from": "Oct.2020",
             "to": "Apr.2022",
