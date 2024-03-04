@@ -18,8 +18,8 @@
             "to": "Now",
             "city": "Fountain Valley",
             "desc": [
-                "Manage and develop ui for Hyundai's technical quality management system using Oracle SQL and Spring MVC structure",
-                "Collaborate with the senior member to reconstruct the webapp",
+                "Managing and developing solution for Hyundai and Kia's technical quality management system using JQuery, Oracle SQL, and Spring MVC structure",
+                "Collaborating with the senior member to reconstruct a webapp version of the solution",
                 "Preparing to participate in a machine learning project with Hyundai Glovis"
             ]
         },
@@ -31,9 +31,9 @@
             "to": "Feb.2024",
             "city": "Los Angeles",
             "desc": [
-                "Constructing a <a href=\"https://bkim9.github.io/Mitaa/index.html\">website</a> for memory clinic using <b>React Native</b>",
-                "Managing patient dataset to use SSD to analyze medical images to catch Alzheimer's disease",
-                "Building neurological knowledge through working with the physician"
+                "Built a <a href=\"https://bkim9.github.io/Mitaa/index.html\">website</a> for memory clinic",
+                "Managed patient dataset to use SSD to analyze medical images to catch Alzheimer's disease",
+                "Built an appointment management system with <b>Google Firebase</b>"
             ]
         },
         {
