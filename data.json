@@ -18,7 +18,7 @@
             "to": "Now",
             "city": "Fountain Valley",
             "desc": [
-                "Managing and developing solutions for Hyundai and Kia's technical quality management system using JQuery, Oracle SQL, and Spring MVC structure",
+                "Managing and developing solutions for Hyundai and Kia's product quality management system(PQMS) using JQuery, Oracle SQL, and Spring MVC structure on Tomcat",
                 "Collaborating with the senior member to reconstruct a webapp version of the solution",
                 "Preparing to participate in a machine learning project with Hyundai Glovis"
             ]
