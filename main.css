@@ -13,7 +13,7 @@ html {
 
 header {
     display: flex;
-    justify-content: center;
+    justify-content: ;
     align-items: center;
     height: 2.5rem;
     background-color: darkslategray;
@@ -45,6 +45,10 @@ span {
     opacity: .4;
 }
 
+span.material-icons {
+    margin-left: 0.3rem;
+}
+
 span.material-icons:hover, span.material-symbols-outlined:hover {
     cursor: pointer;
     color:gray;
@@ -69,7 +73,7 @@ span.material-icons:hover, span.material-symbols-outlined:hover {
 address {
     height: 2.5rem;
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
 }
 
@@ -116,6 +120,10 @@ hr.divider {
 /* checkbox */
 .hidden {
     visibility: hidden;
+}
+
+details.skills {
+    margin-bottom: .5rem;
 }
 
 input[type=checkbox]+label {
@@ -170,7 +178,7 @@ input[type=checkbox]:checked+label {
     }
 
     main {
-        padding: .5rem;
+        padding: 0 .5rem;
     }
     
     /* address */
@@ -180,7 +188,14 @@ input[type=checkbox]:checked+label {
 
     input[type=checkbox]:not(:checked)+label {
         display: none;
+        width:0;
+        height:0;
         color: black;
+    }
+
+    input[type=checkbox]:not(:checked)+label + input  {
+        width:0;
+        height:0;
     }
 
     h1 a {
@@ -190,11 +205,13 @@ input[type=checkbox]:checked+label {
     h2 {
         color: rgb(237, 97, 97);
     }
-    
+
     hr.divider {
         border-style: solid;
         border-color:rgb(255, 168, 168);
     }
+
+
 
     .material-icons {
        visibility: hidden;
