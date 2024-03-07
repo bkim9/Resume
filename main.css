@@ -6,7 +6,7 @@
 }
 
 html {
-    background-color: black;
+    background-color: rgb(30,50,50);
     color: white;
     font-family: Arial, Helvetica, sans-serif;
 }
@@ -24,6 +24,16 @@ header {
 main {
     padding: 2rem;
 }
+
+main a:link {
+    color: rgb(22, 145, 104);
+}
+  
+/* visited link */
+main a:visited {
+    rgb(106, 233, 191);
+}
+  
 
 .copy-row-box { 
     display: flex;
@@ -179,10 +189,6 @@ input[type=checkbox]:checked+label {
 
     h2 {
         color: rgb(237, 97, 97);
-    }
-
-    h2 a {
-        color: rgb(22, 145, 104);
     }
     
     hr.divider {
