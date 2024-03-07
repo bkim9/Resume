@@ -5,7 +5,7 @@
         "Vulkan", "OpenGL", "Metal", "Powershell", "GPU", "Unity", "Unreal", "Blender", "The Forge", "WebGL", "RenderDoc", "Lua",  "Dear ImGui",
         "PyTorch", "scikit-learn", "TensorFlow", "Google Colab", "AWS Sagemaker", "NLP", "nltk", "spaCy", "LLM", "Transformer", "Attention", "GANs", "CUDA", "OpenCL", "Fine Tuning", "Reinforcement Learning", "Q-Learing", "Caffe", "YOLO",
         "lldb", "cmake", "unit test", "GoogleTest",
-        "Pytest", "Jenkins", "Agile", "SCRUM", "Docker", "System Verilog",
+        "Pytest", "Jenkins", "Agile", "SCRUM", "Docker",
         "Flutter", "iOS", "SwiftUI", "VisionOS", "ARKit",
         "Javascript", "TypeScript", "React", "HTML", "CSS", "puppeteer", "Firebase", "Spring", "JQuery"
     ],
@@ -95,7 +95,7 @@
         {
             "label": [ "Vulkan", "RenderDoc", "Lua", "Dear ImGui"],
             "title": "Tonemap Vulkan",
-            "img" :  "./images/vulkan_tonemap.png",
+            "img" :  "./images/vulkan_tonemap.jpg",
             "link":  "https://github.com/bkim9/VulkanTutorial",
             "from":  "Nov.2023",
             "to":    "IP",
@@ -136,7 +136,7 @@
             "label": [ "Computer Graphics" , "C/C++", "Multithread", "lldb"],
             "title": "Ray Tracing and Tone Mapping",
             "link" : "https://github.com/bkim9/CSE168tonemapping.git",
-            "img" :  "./images/tonemapping.png",
+            "img" :  "./images/tonemapping.jpg",
             "from": "Apr.2023",
             "to": "Jul.2023",
             "language": "C++",
