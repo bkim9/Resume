@@ -1,6 +1,8 @@
 // Created by Beomsu Kim on Oct.1st 2023
 import {addClickCopy, addClickBlock} from "./clicktocopy.js"
 
+var data = [];
+
 function clearItems(parent) {
     while (parent.hasChildNodes())
         parent.removeChild(parent.firstChild)
@@ -148,8 +150,10 @@ function displayProj(proj) {
  */
 
 function load_items(storage_key) {
-    let items = JSON.parse(window.localStorage.getItem(storage_key));
+    let storageItem = window.localStorage.getItem(storage_key);
+    let items = JSON.parse(storageItem);
     if (!items) {
+        console.log('Faied loading');
         return [];
     } else {
         return items;
@@ -165,7 +169,7 @@ function store_items(items, storage_key) {
     window.localStorage.setItem(storage_key, JSON.stringify(items));
 }
 
-function display_items(data) {
+function display_items() {
     const exp = data.experience;
     const projs= data.projects;    
     exp.forEach(displayExp);
@@ -175,23 +179,27 @@ function display_items(data) {
 }
 
 // data->localStorage
-async function importJSON() { 
-    fetch("./data.json") 
-        .then((res) => { 
-        return res.json(); 
-    }) 
-    .then((data) => {
-        store_items(data,0);
-        return data;
-    });
+async function importJSON() {
+    await fetch("./data.json").then((response) => {
+        if (response.ok) {
+          return response.json();
+        }
+        throw new Error('Something went wrong');
+      })
+      .then((responseJson) => {
+        data = responseJson;
+        store_items(responseJson,0);
+      })
+      .catch((error) => {
+        console.log(error)
+      });
+    store_items(data,0);
 }
 
 
-function init() {
-    importJSON();
-
-    let data = load_items(0);
-
+async function init() {
+    await importJSON();
+    data = load_items(0);        
     // append skills buttons
     const skillsEBox = document.querySelector('details.skills');
     appendSkillButtons(skillsEBox,data.skills);

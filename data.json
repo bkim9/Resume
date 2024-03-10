@@ -11,27 +11,27 @@
     ],
     "experience" : [
         {
-            "label": [ "Spring", "Java", "SQL", "MVC", "JQuery", "Deep Learning", "PyTorch", "Software Engineering"],
+            "label": [ "Spring", "Java", "SQL", "MVC", "JQuery", "Xplatform","Deep Learning", "PyTorch", "Software Engineering"],
             "title": "Junior Developer",
-            "company": "Solomon America",
+            "company": "Solomon America Inc.",
             "from": "Feb.2024",
             "to": "Now",
             "city": "Fountain Valley",
             "desc": [
-                "Managing and developing solutions for Hyundai and Kia's product quality management system(PQMS) using JQuery, Oracle SQL, and Spring MVC structure on Tomcat",
-                "Collaborating with the senior member to reconstruct a webapp version of the solution",
-                "Preparing to participate in a machine learning project with Hyundai Glovis"
+                "Managing and developing solutions for Hyundai and Kia's product quality management system(PQMS)",
+                "Using JQuery, Oracle SQL, and Spring MVC structure on Tomcat",
+                "Planning to participate in a machine learning project with Hyundai Glovis"
             ]
         },
         {
             "label": [ "HTML", "ComputerVision", "Machine Learning", "Deep Learning", "GANs", "PyTorch", "Software Engineering"],
             "title": "Software Engineer",
-            "company": "Mitaa",
+            "company": "MITAA Wilshire Investment LLC",
             "from": "Sep.2023",
             "to": "Feb.2024",
             "city": "Los Angeles",
             "desc": [
-                "Built a <a href=\"https://bkim9.github.io/Mitaa/index.html\">website</a> for memory clinic",
+                "Built a memory clinic <a href=\"https://bkim9.github.io/Mitaa/index.html\">website</a>",
                 "Managed patient dataset to use SSD to analyze medical images to catch Alzheimer's disease",
                 "Built an appointment management system with <b>Google Firebase</b>"
             ]
@@ -66,19 +66,18 @@
     ],
     "projects" : [
         {
-            "label": [ "Vulkan", "Computer Graphics" ],
-            "title": "vktutorial beta version",
+            "label": [ "Vulkan", "Computer Graphics", "Dynamic Rendering", "RenderDoc" ],
+            "title": "Vulkan Project",
             "img" :  "./images/exhibition5.PNG",
             "from":  "Jan.2024",
             "to":    "Feb.2024",
             "language": "C++",
             "desc": [
-                "Dynamic Rendering for code simplicity and Interactive camera",
-                "RenderDoc for Debugging",
+                "Dynamic Rendering and Interactive camera",
+                "<b>Tonemapping</b> with <b>Dear ImGui</b>, and <b>Lua</b>",
                 "Abstraction based on https://vkguide.dev"
             ]
         },
-
         {
             "label": [ "" ],
             "title": "Displaced BVH",
@@ -90,20 +89,6 @@
                 "Optimization on Collision using GJK method",
                 "TF renderer ",
                 ""
-            ]
-        },
-        {
-            "label": [ "Vulkan", "RenderDoc", "Lua", "Dear ImGui"],
-            "title": "Tonemap Vulkan",
-            "img" :  "./images/vulkan_tonemap.jpg",
-            "link":  "https://github.com/bkim9/VulkanTutorial",
-            "from":  "Nov.2023",
-            "to":    "IP",
-            "language": "C++",
-            "desc": [
-                "<b>Tonemapping</b> integrated with <b>Vulkan API</b> to",
-                "Integrating <b>Dear ImGui</b>, and <b>Lua</b> to debug and test",
-                "Planning to <b>RenderDoc</b> for shader debugging"
             ]
         },
         {
@@ -141,7 +126,7 @@
             "to": "Jul.2023",
             "language": "C++",
             "desc": [
-                "Ray tracing renderer with <b>BVH</b> and multithread acceleration",
+                "Ray tracing with <b>BVH</b> and multithread acceleration",
                 "<b>Importance sampled</b> for area lights and used GoogleTest",
                 "Several <b>Tone Mapping</b> strategies are used"
             ]
