@@ -1,0 +1,107 @@
+Education
+University of California San Diego
+BS CSE: Computer Engineering
+
+Experience
+Junior Developer
+Spring
+Java
+SQL
+MVC
+JQuery
+Xplatform
+Deep Learning
+PyTorch
+Software Engineering
+SVN
+Fountain Valley
+
+Solomon America Inc.
+
+Managing and developing solutions for Hyundai and Kia's product quality management system(PQMS)
+Using JQuery, Oracle SQL, and Spring MVC structure on Tomcat
+Planning to participate in a machine learning project with Hyundai Glovis
+
+Software Engineer
+
+
+HTML
+ComputerVision
+Machine Learning
+Deep Learning
+GANs
+PyTorch
+Software Engineering
+Los Angeles
+
+
+MITAA Wilshire Investment LLC
+
+Built a memory clinic website
+Managed patient dataset to use SSD to analyze medical images to catch Alzheimer's disease
+Built an appointment management system with Google Firebase
+
+Machine Learning Engineer Intern
+
+AT Solution
+
+TensorFlowed for data engineering at a commercial industry field using YOLO
+Generated a model to detect a pattern recognition in an image dataset
+Served as an exhibitor for the company’s booth at CES 2023 in Las Vegas and Collaborate with the team members to convince the potential customer of the products
+
+Computer Emergency Response Team
+
+
+Powershell
+SQL
+Managed military vaccine servers for security updates using linux
+Drilled for a possible security breach situation including hacking mail, ransomware training
+Powershelled routine or repetitive works for efficiency using REST APIs
+Allocated IPs and controlled access to the networks for security
+
+Vulkan Project
+Computer Graphics
+Dynamic Rendering
+RenderDoc
+
+Dynamic Rendering and Interactive camera
+Tonemapping with Dear ImGui, and Lua
+Abstraction based on https://vkguide.dev
+
+Dive into Deep Learning
+
+Implemented the concept of machine learing following the guide in Dive into Machine Learning
+Recommender System, GANs, Transformer, Deep FM
+Used Google Colab Sagemaker Studio Lab
+
+Particle System with subdivision
+
+Computer Graphics
+C/C++
+Multithread
+The Forge
+Vulkan
+
+Advanced GPU rendering based on TF engine(AAA) Vulkan and DirectX pipeline simulating particle collision responses
+Instanced, indirect, and indirect with compute shader rendering options to compare the performance between them
+LOD strategy used for performance acceleration
+Ray Tracing and Tone Mapping
+
+
+Computer Graphics
+C/C++
+Multithread
+lldb
+
+Ray tracing with BVH and multithread acceleration
+Importance sampled for area lights and used GoogleTest
+Several Tone Mapping strategies are used
+
+ETA Predictor
+Feature engineered based on traffic information of the traffic data set in Kaggle
+Used d2l library referencing the book Dive into Deep Learning to solve real world problems by analyzing the pattern
+Planning to leverage error function than sigmoid to be robust against outliers
+
+Sonette Predictor
+Given the data set of Shakespearean sonnets and the first 40 characters of hint, generated what will be following the seed
+Generated sequences using attention model to solve the natural language processing problem
