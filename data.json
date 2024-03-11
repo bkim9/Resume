@@ -11,7 +11,7 @@
     ],
     "experience" : [
         {
-            "label": [ "Spring", "Java", "SQL", "MVC", "JQuery", "Xplatform","Deep Learning", "PyTorch", "Software Engineering"],
+            "label": [ "Spring", "Java", "SQL", "MVC", "JQuery", "Xplatform","Deep Learning", "PyTorch", "Software Engineering", "SVN"],
             "title": "Junior Developer",
             "company": "Solomon America Inc.",
             "from": "Feb.2024",
@@ -101,7 +101,7 @@
             "desc": [
                 "Implemented the concept of machine learing following the guide in <i>Dive into Machine Learning</i>",
                 "<b>Recommender System</b>, <b>GANs</b>, <b>Transformer</b>, <b>Deep FM</b>",
-                "Colabed for producing immediate output and feed back"
+                "Used Google Colab Sagemaker Studio Lab"
             ]
         },
         {
