@@ -107,6 +107,7 @@
         {
             "label": [ "Computer Graphics" , "C/C++", "Multithread", "The Forge", "Vulkan"],
             "title": "Particle System with subdivision",
+            "link" : "https://www.youtube.com/watch?v=jefEEYMLSOM",
             "img" :  "./images/gpu_render_small.jpg",
             "from":  "Aug.2023",
             "to"  :  "Sep.2023",
