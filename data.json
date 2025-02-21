@@ -11,8 +11,8 @@
     ],
     "experience" : [
         {
-            "label": [ "Spring", "Java", "SQL", "MVC", "JQuery", "Xplatform","Deep Learning", "PyTorch", "Software Engineering", "SVN"],
-            "title": "Software Developer",
+            "label": [ "Spring", "Java", "SQL", "MVC", "JQuery", "Xplatform","Deep Learning", "PyTorch", "Software Engineering", "SVN","Maven"],
+            "title": "Computer Programmer",
             "company": "Solomon America Inc.",
             "from": "Feb.2024",
             "to": "Now",
