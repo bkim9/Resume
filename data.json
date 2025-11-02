@@ -19,7 +19,8 @@
             "city": "Irvine",
             "desc": [
                 "Managing and developing software for Hyundai and Kia's product quality management system(PQMS)",
-                "Using JQuery, Oracle SQL, and Spring MVC structure on Tomcat"
+                "Using JQuery, Oracle SQL, and Spring MVC structure on Tomcat",
+                "Implemented CICD to streamline deploy to DEV"
             ]
         },
         {
